@@ -1,0 +1,110 @@
+[
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\AI_Mobile_Test_Studio_autogen\\mocs_compilation.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\build\\AI_Mobile_Test_Studio_autogen\\mocs_compilation.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\main.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\main.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/main.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/main.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\mainwindow.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\mainwindow.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/mainwindow.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/mainwindow.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\app\\widgets\\navigationbar.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\app\\widgets\\navigationbar.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/app/widgets/navigationbar.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/navigationbar.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\app\\widgets\\devicepanel.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\app\\widgets\\devicepanel.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/app/widgets/devicepanel.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/devicepanel.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\app\\widgets\\chatpanel.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\app\\widgets\\chatpanel.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/app/widgets/chatpanel.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/chatpanel.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\app\\widgets\\bottompanel.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\app\\widgets\\bottompanel.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/app/widgets/bottompanel.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/bottompanel.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\app\\widgets\\titlebar.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\app\\widgets\\titlebar.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/app/widgets/titlebar.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/titlebar.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\core\\adb\\adbcontroller.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\core\\adb\\adbcontroller.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/core/adb/adbcontroller.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\core\\appium\\appiumcontroller.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\core\\appium\\appiumcontroller.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/core/appium/appiumcontroller.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/core/appium/appiumcontroller.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\core\\logger\\logger.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\core\\logger\\logger.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/core/logger/logger.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/core/logger/logger.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\core\\llm\\llm_provider.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\core\\llm\\llm_provider.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/core/llm/llm_provider.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/core/llm/llm_provider.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\services\\chat_service.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\services\\chat_service.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/services/chat_service.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\services\\device_service.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\services\\device_service.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/services/device_service.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\services\\ai_service.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\services\\ai_service.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/services/ai_service.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\services\\script_service.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\services\\script_service.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/services/script_service.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\services\\plugin_service.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\services\\plugin_service.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/services/plugin_service.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.obj"
+},
+{
+  "directory": "E:/Project/AI_Mobile_Test_Studio/build",
+  "command": "D:\\myApp_666666666666666\\QT\\app\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\AI_Mobile_Test_Studio.dir\\AI_Mobile_Test_Studio_autogen\\EWIEGA46WW\\qrc_resources.cpp.obj -c E:\\Project\\AI_Mobile_Test_Studio\\build\\AI_Mobile_Test_Studio_autogen\\EWIEGA46WW\\qrc_resources.cpp",
+  "file": "E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp",
+  "output": "CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
+}
+]

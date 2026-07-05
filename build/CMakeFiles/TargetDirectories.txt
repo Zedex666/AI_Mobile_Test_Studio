@@ -1,0 +1,9 @@
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/AI_Mobile_Test_Studio.dir
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/edit_cache.dir
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/rebuild_cache.dir
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/list_install_components.dir
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/install.dir
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/install/local.dir
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/install/strip.dir
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/AI_Mobile_Test_Studio_autogen_timestamp_deps.dir
+E:/Project/AI_Mobile_Test_Studio/build/CMakeFiles/AI_Mobile_Test_Studio_autogen.dir

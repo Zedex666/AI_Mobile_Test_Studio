@@ -1,0 +1,50 @@
+/* AI Mobile Test Studio - Global Stylesheet */
+
+/* Main Window */
+QMainWindow {
+    background-color: #FFFFFF;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background-color: transparent;
+    width: 8px;
+    border-radius: 4px;
+}
+QScrollBar::handle:vertical {
+    background-color: #D1D5DB;
+    border-radius: 4px;
+    min-height: 32px;
+}
+QScrollBar::handle:vertical:hover {
+    background-color: #9CA3AF;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+QScrollBar:horizontal {
+    background-color: transparent;
+    height: 8px;
+    border-radius: 4px;
+}
+QScrollBar::handle:horizontal {
+    background-color: #D1D5DB;
+    border-radius: 4px;
+    min-width: 32px;
+}
+QScrollBar::handle:horizontal:hover {
+    background-color: #9CA3AF;
+}
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+}
+
+/* Tooltips */
+QToolTip {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 12px;
+}

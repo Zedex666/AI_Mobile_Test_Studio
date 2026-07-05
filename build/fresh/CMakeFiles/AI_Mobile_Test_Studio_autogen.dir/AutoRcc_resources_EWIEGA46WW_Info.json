@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "E:/Project/AI_Mobile_Test_Studio/build/fresh/AI_Mobile_Test_Studio_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Project/AI_Mobile_Test_Studio/build/fresh",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Project/AI_Mobile_Test_Studio/build/fresh",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Project/AI_Mobile_Test_Studio",
+	"CMAKE_SOURCE_DIR" : "E:/Project/AI_Mobile_Test_Studio",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "E:/Project/AI_Mobile_Test_Studio/build/fresh/AI_Mobile_Test_Studio_autogen/include",
+	"INPUTS" : [ "E:/Project/AI_Mobile_Test_Studio/resources/qss/style.qss" ],
+	"LOCK_FILE" : "E:/Project/AI_Mobile_Test_Studio/build/fresh/CMakeFiles/AI_Mobile_Test_Studio_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/Project/AI_Mobile_Test_Studio/build/fresh/CMakeFiles/AI_Mobile_Test_Studio_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/Project/AI_Mobile_Test_Studio/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,3 @@
+D:\myApp_666666666666666\QT\app\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\AI_Mobile_Test_Studio.dir/objects.a
+D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\AI_Mobile_Test_Studio.dir/objects.a @CMakeFiles\AI_Mobile_Test_Studio.dir\objects1.rsp
+D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\AI_Mobile_Test_Studio.dir/objects.a -Wl,--no-whole-archive -o AI_Mobile_Test_Studio.exe -Wl,--out-implib,libAI_Mobile_Test_Studio.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AI_Mobile_Test_Studio.dir\linkLibs.rsp

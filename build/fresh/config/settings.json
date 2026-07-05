@@ -1,0 +1,68 @@
+{
+    "app": {
+        "name": "AI Mobile Test Studio",
+        "version": "0.1.0",
+        "theme": "light",
+        "language": "zh_CN"
+    },
+    "llm": {
+        "default_provider": "openai",
+        "providers": {
+            "openai": {
+                "api_url": "https://api.openai.com/v1",
+                "api_key": "",
+                "model": "gpt-4o"
+            },
+            "claude": {
+                "api_url": "https://api.anthropic.com/v1",
+                "api_key": "",
+                "model": "claude-3-5-sonnet-20241022"
+            },
+            "deepseek": {
+                "api_url": "https://api.deepseek.com/v1",
+                "api_key": "",
+                "model": "deepseek-chat"
+            },
+            "gemini": {
+                "api_url": "https://generativelanguage.googleapis.com/v1",
+                "api_key": "",
+                "model": "gemini-1.5-pro"
+            },
+            "qwen": {
+                "api_url": "https://dashscope.aliyuncs.com/api/v1",
+                "api_key": "",
+                "model": "qwen-max"
+            },
+            "ollama": {
+                "api_url": "http://localhost:11434/api",
+                "api_key": "",
+                "model": "llama3"
+            }
+        }
+    },
+    "adb": {
+        "auto_connect": true,
+        "default_device": "",
+        "scrcpy_options": {
+            "max_size": 1080,
+            "bit_rate": 8000000,
+            "frame_rate": 60
+        }
+    },
+    "appium": {
+        "server_url": "http://localhost:4723",
+        "auto_start_server": true,
+        "capabilities": {
+            "platformName": "Android",
+            "automationName": "UiAutomator2",
+            "noReset": true
+        }
+    },
+    "paths": {
+        "workspace": "./workspace",
+        "logs": "./logs",
+        "scripts": "./scripts",
+        "plugins": "./plugins",
+        "sdk": "./sdk"
+    }
+}

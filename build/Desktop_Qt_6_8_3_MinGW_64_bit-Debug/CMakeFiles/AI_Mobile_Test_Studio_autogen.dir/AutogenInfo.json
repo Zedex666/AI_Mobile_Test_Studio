@@ -8,64 +8,9 @@
 	"CMAKE_LIST_FILES" : 
 	[
 		"E:/Project/AI_Mobile_Test_Studio/CMakeLists.txt",
-		"E:/Project/AI_Mobile_Test_Studio/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in",
 		"E:/Project/AI_Mobile_Test_Studio/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake",
-		"E:/Project/AI_Mobile_Test_Studio/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
 		"E:/Project/AI_Mobile_Test_Studio/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake",
@@ -79,32 +24,11 @@
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in",
 		"E:/Project/AI_Mobile_Test_Studio/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in",
-		"E:/Project/AI_Mobile_Test_Studio/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -156,6 +80,11 @@
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageMessage.cmake",
+		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
+		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake",
+		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
@@ -237,18 +166,6 @@
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindVulkan.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageMessage.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindVulkan.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageMessage.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageMessage.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindVulkan.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageMessage.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindVulkan.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/FindPackageMessage.cmake",
@@ -336,47 +253,9 @@
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtInstallPaths.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtFeature.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
-		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake"
+		"D:/myApp_666666666666666/QT/app/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
+		"E:/Project/AI_Mobile_Test_Studio/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "E:/Project/AI_Mobile_Test_Studio",
 	"CROSS_CONFIG" : false,
@@ -385,9 +264,105 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/bottompanel.h",
+			"MU",
+			"737QBB53UY/moc_bottompanel.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/chatpanel.h",
+			"MU",
+			"737QBB53UY/moc_chatpanel.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/devicepanel.h",
+			"MU",
+			"737QBB53UY/moc_devicepanel.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/navigationbar.h",
+			"MU",
+			"737QBB53UY/moc_navigationbar.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/titlebar.h",
+			"MU",
+			"737QBB53UY/moc_titlebar.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h",
+			"MU",
+			"SGEJK4MHAC/moc_adbcontroller.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/appium/appiumcontroller.h",
+			"MU",
+			"NPC4IHC6VI/moc_appiumcontroller.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/config/configmanager.h",
+			"MU",
+			"ZCC6LKUHCO/moc_configmanager.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/llm/llm_provider.h",
+			"MU",
+			"ZB3PBTHZBL/moc_llm_provider.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/logger/logger.h",
+			"MU",
+			"2IIZVQGCRO/moc_logger.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.h",
+			"MU",
+			"VC5ZWP2WLR/moc_scrcpycontroller.cpp",
+			null
+		],
+		[
 			"E:/Project/AI_Mobile_Test_Studio/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/ai_service.h",
+			"MU",
+			"3BYFHCGL5U/moc_ai_service.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/chat_service.h",
+			"MU",
+			"3BYFHCGL5U/moc_chat_service.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/device_service.h",
+			"MU",
+			"3BYFHCGL5U/moc_device_service.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/plugin_service.h",
+			"MU",
+			"3BYFHCGL5U/moc_plugin_service.cpp",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/script_service.h",
+			"MU",
+			"3BYFHCGL5U/moc_script_service.cpp",
 			null
 		]
 	],
@@ -417,6 +392,12 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"E:/Project/AI_Mobile_Test_Studio",
+		"E:/Project/AI_Mobile_Test_Studio/app",
+		"E:/Project/AI_Mobile_Test_Studio/app/widgets",
+		"E:/Project/AI_Mobile_Test_Studio/core",
+		"E:/Project/AI_Mobile_Test_Studio/services",
+		"E:/Project/AI_Mobile_Test_Studio/modules",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include",
 		"D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/mkspecs/win32-g++",
@@ -443,6 +424,7 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/bin/g++.exe",
+		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",
@@ -461,8 +443,84 @@
 	"SETTINGS_FILE" : "E:/Project/AI_Mobile_Test_Studio/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/CMakeFiles/AI_Mobile_Test_Studio_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/bottompanel.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/chatpanel.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/devicepanel.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/navigationbar.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/app/widgets/titlebar.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/appium/appiumcontroller.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/config/configmanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/llm/llm_provider.cpp",
+			"MU",
+			null
+		],
+		[ "E:/Project/AI_Mobile_Test_Studio/core/logger/logger.cpp", "MU", null ],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.cpp",
+			"MU",
+			null
+		],
 		[ "E:/Project/AI_Mobile_Test_Studio/main.cpp", "MU", null ],
-		[ "E:/Project/AI_Mobile_Test_Studio/mainwindow.cpp", "MU", null ]
+		[ "E:/Project/AI_Mobile_Test_Studio/mainwindow.cpp", "MU", null ],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/ai_service.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/chat_service.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/device_service.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/plugin_service.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/Project/AI_Mobile_Test_Studio/services/script_service.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
