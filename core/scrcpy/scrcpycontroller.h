@@ -51,12 +51,14 @@ private:
     QTimer *m_embedTimer = nullptr;
     bool m_isRunning = false;
     QString m_stderrBuffer;   // accumulates all stderr for error reporting
+    int m_embedCornerRadius = 22;
 
 #ifdef Q_OS_WIN
     quintptr m_scrcpyHwnd = 0;
     quintptr m_containerHwnd = 0;
     bool embedNativeWindow();
     void updateNativeGeometry();
+    void updateWindowRgn(int w, int h);
 #endif
 };
 

@@ -57,6 +57,10 @@ public:
     void startPolling(int intervalMs = 3000);
     void stopPolling();
 
+    // Device control via ADB key events
+    bool sendKeyEvent(const QString &deviceId, int keyCode);
+    void toggleRotation(const QString &deviceId);
+
 signals:
     void devicesChanged(const QMap<QString, DeviceInfo> &devices);
     void deviceConnected(const QString &deviceId);

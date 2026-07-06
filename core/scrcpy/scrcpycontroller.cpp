@@ -381,8 +381,24 @@ void ScrcpyController::updateNativeGeometry()
     HWND hwnd = (HWND)m_scrcpyHwnd;
     RECT rect;
     GetClientRect((HWND)m_containerHwnd, &rect);
-    SetWindowPos(hwnd, HWND_TOP, 0, 0, rect.right - rect.left, rect.bottom - rect.top,
+    int w = rect.right - rect.left;
+    int h = rect.bottom - rect.top;
+    SetWindowPos(hwnd, HWND_TOP, 0, 0, w, h,
                  SWP_FRAMECHANGED | SWP_SHOWWINDOW);
+    updateWindowRgn(w, h);
+}
+
+void ScrcpyController::updateWindowRgn(int w, int h)
+{
+    if (!m_scrcpyHwnd) return;
+    HWND hwnd = (HWND)m_scrcpyHwnd;
+    int radius = m_embedCornerRadius;
+    if (radius > 0 && w > radius * 2 && h > radius * 2) {
+        HRGN rgn = CreateRoundRectRgn(0, 0, w, h, radius * 2, radius * 2);
+        SetWindowRgn(hwnd, rgn, TRUE);
+    } else {
+        SetWindowRgn(hwnd, nullptr, TRUE);
+    }
 }
 #endif
 

@@ -106,6 +106,31 @@ void DeviceService::stopPolling()
     m_pollTimer->stop();
 }
 
+bool DeviceService::sendKeyEvent(const QString &deviceId, int keyCode)
+{
+    if (deviceId.isEmpty()) return false;
+    QString cmd = QString("input keyevent %1").arg(keyCode);
+    bool ok = m_adb->shell(deviceId, cmd);
+    core::logger::Logger::instance()->info("DeviceService",
+        tr("sendKeyEvent: device=%1 keycode=%2 result=%3").arg(deviceId).arg(keyCode).arg(ok));
+    return ok;
+}
+
+void DeviceService::toggleRotation(const QString &deviceId)
+{
+    if (deviceId.isEmpty()) return;
+    // Disable auto-rotate first so user_rotation takes effect
+    m_adb->shell(deviceId, "settings put system accelerometer_rotation 0");
+    // Read current rotation and flip between portrait (0) and landscape (1)
+    QString output;
+    m_adb->shell(deviceId, "settings get system user_rotation", &output);
+    int current = output.trimmed().toInt();
+    int next = (current == 1) ? 0 : 1;
+    m_adb->shell(deviceId, QString("settings put system user_rotation %1").arg(next));
+    core::logger::Logger::instance()->info("DeviceService",
+        tr("toggleRotation: device=%1 %2→%3").arg(deviceId).arg(current).arg(next));
+}
+
 void DeviceService::onPollTimeout()
 {
     refreshDevices();

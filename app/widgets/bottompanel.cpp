@@ -13,8 +13,9 @@ BottomPanel::BottomPanel(QWidget *parent)
 
 void BottomPanel::setupUI()
 {
-    setFixedHeight(180);
-    setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+    setMinimumHeight(160);
+    setMaximumHeight(400);
+    setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
 
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->setContentsMargins(0, 0, 0, 0);

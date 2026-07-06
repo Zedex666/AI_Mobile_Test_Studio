@@ -37,6 +37,7 @@ void MainWindow::setupUI()
 {
     setWindowTitle(tr("AI Mobile Test Studio"));
     resize(1440, 900);
+    setMinimumSize(1100, 800);
 
     // Central widget
     QWidget *centralWidget = new QWidget(this);
@@ -159,12 +160,15 @@ void MainWindow::setupServices()
     connect(m_deviceService, &services::DeviceService::adbStatusChanged,
             m_devicePanel, &DevicePanel::setAdbAvailable);
 
-    // Connect device panel refresh button — refresh devices and restart scrcpy
+    // --- DevicePanel control button connections ---
+    // Architecture: UI (DevicePanel) → MainWindow (coordination) → DeviceService → AdbController
+    // All buttons target the currently selected device. If no device is selected,
+    // the operation is silently skipped (sendKeyEvent checks for empty deviceId).
+
+    // Refresh button — refresh device list and restart scrcpy
     connect(m_devicePanel, &DevicePanel::refreshClicked, this, [this]() {
         core::logger::Logger::instance()->info("MainWindow", tr("DevicePanel refresh clicked"));
-        // Refresh device list from ADB
         m_deviceService->refreshDevices();
-        // Force restart scrcpy for the current device (if any)
         m_devicePanel->stopScrcpy();
         QString currentId = m_deviceService->currentDevice();
         if (!currentId.isEmpty()) {
@@ -173,6 +177,36 @@ void MainWindow::setupServices()
                 m_devicePanel->setDeviceInfo(info);
             }
         }
+    });
+
+    // Back button — KEYCODE_BACK (4)
+    connect(m_devicePanel, &DevicePanel::backClicked, this, [this]() {
+        m_deviceService->sendKeyEvent(m_deviceService->currentDevice(), 4);
+    });
+
+    // Home button — KEYCODE_HOME (3)
+    connect(m_devicePanel, &DevicePanel::homeClicked, this, [this]() {
+        m_deviceService->sendKeyEvent(m_deviceService->currentDevice(), 3);
+    });
+
+    // Recents / App switch button — KEYCODE_APP_SWITCH (187)
+    connect(m_devicePanel, &DevicePanel::recentClicked, this, [this]() {
+        m_deviceService->sendKeyEvent(m_deviceService->currentDevice(), 187);
+    });
+
+    // Rotate button — toggle between portrait and landscape
+    connect(m_devicePanel, &DevicePanel::rotateClicked, this, [this]() {
+        m_deviceService->toggleRotation(m_deviceService->currentDevice());
+    });
+
+    // Volume Up button — KEYCODE_VOLUME_UP (24)
+    connect(m_devicePanel, &DevicePanel::volumeUpClicked, this, [this]() {
+        m_deviceService->sendKeyEvent(m_deviceService->currentDevice(), 24);
+    });
+
+    // Volume Down button — KEYCODE_VOLUME_DOWN (25)
+    connect(m_devicePanel, &DevicePanel::volumeDownClicked, this, [this]() {
+        m_deviceService->sendKeyEvent(m_deviceService->currentDevice(), 25);
     });
 
     // Start polling

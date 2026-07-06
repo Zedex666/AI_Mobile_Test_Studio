@@ -66,3 +66,16 @@
 496	3720	8049629864619639	CMakeFiles/AI_Mobile_Test_Studio.dir/mainwindow.cpp.obj	242b260211b12431
 510	4362	8049629864764183	CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj	4f48659b547016e2
 4362	5940	8049629903282750	AI_Mobile_Test_Studio.exe	4067a40704440da7
+23	1134	8050176833562282	AI_Mobile_Test_Studio_autogen/timestamp	c7645315ba110dd7
+23	1134	8050176833562282	AI_Mobile_Test_Studio_autogen/mocs_compilation.cpp	c7645315ba110dd7
+23	1134	8050176833562282	E:/Project/AI_Mobile_Test_Studio/build/fresh/AI_Mobile_Test_Studio_autogen/timestamp	c7645315ba110dd7
+23	1134	8050176833562282	E:/Project/AI_Mobile_Test_Studio/build/fresh/AI_Mobile_Test_Studio_autogen/mocs_compilation.cpp	c7645315ba110dd7
+1144	3933	8050176834534492	CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/bottompanel.cpp.obj	12a495ebc412abf6
+1159	4147	8050176834679727	CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj	bd47ba17981c2d3a
+1141	4158	8050176834504415	CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/devicepanel.cpp.obj	3ee75a31ae1fe94b
+1151	4162	8050176834609638	CMakeFiles/AI_Mobile_Test_Studio.dir/core/adb/adbcontroller.cpp.obj	20ecf64a93082476
+1147	4344	8050176834564495	CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/titlebar.cpp.obj	52a00b285e8e2f8c
+1135	5338	8050176834439286	CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/mocs_compilation.cpp.obj	15de71129b225f71
+1138	5522	8050176834479281	CMakeFiles/AI_Mobile_Test_Studio.dir/mainwindow.cpp.obj	242b260211b12431
+1155	6237	8050176834639721	CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj	4f48659b547016e2
+6237	7709	8050176885463479	AI_Mobile_Test_Studio.exe	4067a40704440da7

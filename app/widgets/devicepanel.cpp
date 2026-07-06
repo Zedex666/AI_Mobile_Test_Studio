@@ -6,6 +6,7 @@
 #include <QPushButton>
 #include <QFrame>
 #include <QGraphicsDropShadowEffect>
+#include <QTimer>
 #include <QDebug>
 
 DevicePanel::DevicePanel(QWidget *parent)
@@ -16,17 +17,16 @@ DevicePanel::DevicePanel(QWidget *parent)
     setupStyle();
 
     connect(m_scrcpy, &core::scrcpy::ScrcpyController::started, this, [this]() {
-        // Keep placeholder visible until window is actually embedded
+        // Placeholder stays visible underneath; scrcpy native window paints on top.
     });
     connect(m_scrcpy, &core::scrcpy::ScrcpyController::embedded, this, [this]() {
-        m_phoneScreen->hide();
+        // Scrcpy native window is now clipped with rounded corners via SetWindowRgn.
+        // The m_phoneScreen QLabel remains visible behind it as a dark backdrop.
     });
     connect(m_scrcpy, &core::scrcpy::ScrcpyController::stopped, this, [this]() {
-        m_phoneScreen->show();
         m_phoneScreen->setText(tr("手机屏幕画面\n(Scrcpy 未启动)"));
     });
     connect(m_scrcpy, &core::scrcpy::ScrcpyController::error, this, [this](const QString &msg) {
-        m_phoneScreen->show();
         m_phoneScreen->setText(tr("Scrcpy 启动失败\n%1").arg(msg));
         qWarning() << "Scrcpy error:" << msg;
     });
@@ -129,8 +129,10 @@ void DevicePanel::setupUI()
     wrapperLayout->addWidget(m_phoneFrame, 0, Qt::AlignCenter);
     phoneLayout->addWidget(phoneShadowWrapper, 1);
 
-    // Scrcpy embed container — m_phoneFrame has no graphics effect, safe for native embedding
-    m_scrcpy->setEmbedContainer(m_phoneFrame);
+    // Scrcpy embed container — use m_phoneScreen so scrcpy exactly overlays the placeholder.
+    // m_phoneScreen has the same 6px margin inside m_phoneFrame and matching border-radius.
+    m_phoneScreen->setAttribute(Qt::WA_NativeWindow, true);
+    m_scrcpy->setEmbedContainer(m_phoneScreen);
 
     // Right: Side control buttons
     QVBoxLayout *sideLayout = new QVBoxLayout();
@@ -422,23 +424,49 @@ void DevicePanel::resizeEvent(QResizeEvent *event)
 {
     QWidget::resizeEvent(event);
 
-    // Keep the phone frame within the wrapper's bounds.
-    // The maximum height is capped at the wrapper height so the bottom
-    // panel (Log/Terminal/Results, 180px) remains visible.
-    // The frame's minimum height ensures it doesn't collapse.
-    // Scrcpy renders the device content at its native aspect ratio inside
-    // the frame — letterboxing (black bars) may appear if aspect ratios differ,
-    // which is normal and expected behavior (like a video player).
-    if (m_phoneFrame) {
+    // Lock the phone frame to the device's exact screen aspect ratio.
+    // This eliminates black bars (letterboxing) by ensuring the frame
+    // dimensions match the device proportions (e.g. 1080×2400 → W/H=0.45).
+    // The frame is centered in its wrapper via Qt::AlignCenter.
+    if (m_phoneFrame && m_targetAspectRatio > 0) {
         QWidget *wrapper = m_phoneFrame->parentWidget();
-        if (wrapper && wrapper->height() > 0) {
-            int minHeight = (m_deviceType == services::DeviceType::Watch) ? 240
-                          : (m_deviceType == services::DeviceType::Tablet) ? 350
-                          : 450;
-            m_phoneFrame->setMinimumHeight(minHeight);
-            m_phoneFrame->setMaximumHeight(wrapper->height());
+        if (wrapper && wrapper->width() > 0 && wrapper->height() > 0) {
+            int maxW = m_phoneFrame->maximumWidth();
+            int availW = qMin(wrapper->width(), maxW > 0 ? maxW : wrapper->width());
+            int availH = wrapper->height();
+
+            // Minimum dimensions by device type
+            int minW = (m_deviceType == services::DeviceType::Watch) ? 180
+                     : (m_deviceType == services::DeviceType::Tablet) ? 380
+                     : 260;
+            int minH = (m_deviceType == services::DeviceType::Watch) ? 200
+                     : (m_deviceType == services::DeviceType::Tablet) ? 280
+                     : 400;
+
+            int frameW, frameH;
+
+            // Try width-first: height = width / aspectRatio
+            int hFromW = static_cast<int>(availW / m_targetAspectRatio);
+            if (hFromW <= availH) {
+                // Width is the bottleneck — frame fits perfectly
+                frameW = availW;
+                frameH = hFromW;
+            } else {
+                // Height is the bottleneck — calculate width from available height
+                frameH = availH;
+                frameW = static_cast<int>(availH * m_targetAspectRatio);
+                if (frameW > availW) frameW = availW;
+            }
+
+            // Respect minimums
+            if (frameW < minW) { frameW = minW; frameH = static_cast<int>(minW / m_targetAspectRatio); }
+            if (frameH < minH) { frameH = minH; frameW = static_cast<int>(minH * m_targetAspectRatio); }
+
+            m_phoneFrame->setFixedSize(frameW, frameH);
         }
     }
 
-    m_scrcpy->updateEmbedGeometry();
+    // Delay geometry update to next event-loop iteration so the layout
+    // has finished calculating m_phoneScreen's new size.
+    QTimer::singleShot(0, m_scrcpy, &core::scrcpy::ScrcpyController::updateEmbedGeometry);
 }
