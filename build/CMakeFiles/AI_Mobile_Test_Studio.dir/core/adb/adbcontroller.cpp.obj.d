@@ -321,12 +321,16 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/core/adb/adbcontroller.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstring.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringlist.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocess.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qobject.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDebug \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h \
+ E:/Project/AI_Mobile_Test_Studio/core/config/configmanager.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QJsonObject \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qjsonobject.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qjsonvalue.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcborvalue.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcborcommon.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdebug.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtextstream.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcontiguouscache.h \
@@ -334,7 +338,24 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/core/adb/adbcontroller.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsharedpointer.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qset.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qhash.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qvarlengtharray.h
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qvarlengtharray.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcalendar.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlocale.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qvariant.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qobject.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qurl.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/quuid.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qendian.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocess.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDebug \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdebug.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QRegularExpression \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qregularexpression.h

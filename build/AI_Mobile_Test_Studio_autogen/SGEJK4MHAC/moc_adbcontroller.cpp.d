@@ -1,5 +1,6 @@
 E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/SGEJK4MHAC/moc_adbcontroller.cpp: E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
   E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/moc_predefs.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
@@ -49,6 +50,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/SGEJK4MHAC/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlist.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlogging.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmalloc.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmath.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmetacontainer.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmetatype.h \
@@ -65,6 +67,8 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/SGEJK4MHAC/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qrefcount.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qscopedpointer.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qscopeguard.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstring.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringalgorithms.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringbuilder.h \

@@ -402,10 +402,41 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/mainwindow.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  E:\Project\AI_Mobile_Test_Studio\app/widgets/titlebar.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QWidget \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
+ E:/Project/AI_Mobile_Test_Studio/services/device_service.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qobject.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstring.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringlist.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimer.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
+ E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
  E:\Project\AI_Mobile_Test_Studio\app/widgets/navigationbar.h \
  E:\Project\AI_Mobile_Test_Studio\app/widgets/devicepanel.h \
+ E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocess.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h \
  E:\Project\AI_Mobile_Test_Studio\app/widgets/chatpanel.h \
  E:\Project\AI_Mobile_Test_Studio\app/widgets/bottompanel.h \
+ E:\Project\AI_Mobile_Test_Studio\core/logger/logger.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDateTime \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcalendar.h \
+ E:\Project\AI_Mobile_Test_Studio\core/config/configmanager.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QJsonObject \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qjsonobject.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qjsonvalue.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcborvalue.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcborcommon.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qurl.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/quuid.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QHBoxLayout \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QSplitter \
@@ -414,9 +445,48 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/mainwindow.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QLabel \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qlabel.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtGui/qpicture.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qurl.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QStatusBar \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QFrame \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qframe.h
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qframe.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QMessageBox \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qmessagebox.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qdialog.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDir \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdir.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdirlisting.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qfiledevice.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qfile.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qfileinfo.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimezone.h

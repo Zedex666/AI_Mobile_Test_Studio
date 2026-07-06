@@ -40,6 +40,7 @@ static constexpr auto qt_meta_stringdata_ZN4core6scrcpy16ScrcpyControllerE = QtM
     "core::scrcpy::ScrcpyController",
     "started",
     "",
+    "embedded",
     "stopped",
     "error",
     "message",
@@ -66,35 +67,37 @@ Q_CONSTINIT static const uint qt_meta_data_ZN4core6scrcpy16ScrcpyControllerE[] =
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       9,   14, // methods
+      10,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       4,       // signalCount
+       5,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   68,    2, 0x06,    1 /* Public */,
-       3,    0,   69,    2, 0x06,    2 /* Public */,
-       4,    1,   70,    2, 0x06,    3 /* Public */,
-       6,    1,   73,    2, 0x06,    5 /* Public */,
+       1,    0,   74,    2, 0x06,    1 /* Public */,
+       3,    0,   75,    2, 0x06,    2 /* Public */,
+       4,    0,   76,    2, 0x06,    3 /* Public */,
+       5,    1,   77,    2, 0x06,    4 /* Public */,
+       7,    1,   80,    2, 0x06,    6 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       8,    2,   76,    2, 0x08,    7 /* Private */,
-      12,    1,   81,    2, 0x08,   10 /* Private */,
-      15,    0,   84,    2, 0x08,   12 /* Private */,
-      16,    0,   85,    2, 0x08,   13 /* Private */,
-      17,    0,   86,    2, 0x08,   14 /* Private */,
+       9,    2,   83,    2, 0x08,    8 /* Private */,
+      13,    1,   88,    2, 0x08,   11 /* Private */,
+      16,    0,   91,    2, 0x08,   13 /* Private */,
+      17,    0,   92,    2, 0x08,   14 /* Private */,
+      18,    0,   93,    2, 0x08,   15 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,    5,
-    QMetaType::Void, QMetaType::QString,    7,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    6,
+    QMetaType::Void, QMetaType::QString,    8,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::Int, 0x80000000 | 10,    9,   11,
-    QMetaType::Void, 0x80000000 | 13,   14,
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 11,   10,   12,
+    QMetaType::Void, 0x80000000 | 14,   15,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -112,6 +115,8 @@ Q_CONSTINIT const QMetaObject core::scrcpy::ScrcpyController::staticMetaObject =
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<ScrcpyController, std::true_type>,
         // method 'started'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'embedded'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'stopped'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
@@ -144,14 +149,15 @@ void core::scrcpy::ScrcpyController::qt_static_metacall(QObject *_o, QMetaObject
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->started(); break;
-        case 1: _t->stopped(); break;
-        case 2: _t->error((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 3: _t->logOutput((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 4: _t->onProcessFinished((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QProcess::ExitStatus>>(_a[2]))); break;
-        case 5: _t->onProcessError((*reinterpret_cast< std::add_pointer_t<QProcess::ProcessError>>(_a[1]))); break;
-        case 6: _t->onReadyReadStandardOutput(); break;
-        case 7: _t->onReadyReadStandardError(); break;
-        case 8: _t->tryEmbedWindow(); break;
+        case 1: _t->embedded(); break;
+        case 2: _t->stopped(); break;
+        case 3: _t->error((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 4: _t->logOutput((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 5: _t->onProcessFinished((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QProcess::ExitStatus>>(_a[2]))); break;
+        case 6: _t->onProcessError((*reinterpret_cast< std::add_pointer_t<QProcess::ProcessError>>(_a[1]))); break;
+        case 7: _t->onReadyReadStandardOutput(); break;
+        case 8: _t->onReadyReadStandardError(); break;
+        case 9: _t->tryEmbedWindow(); break;
         default: ;
         }
     }
@@ -166,22 +172,29 @@ void core::scrcpy::ScrcpyController::qt_static_metacall(QObject *_o, QMetaObject
         }
         {
             using _q_method_type = void (ScrcpyController::*)();
-            if (_q_method_type _q_method = &ScrcpyController::stopped; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            if (_q_method_type _q_method = &ScrcpyController::embedded; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 1;
                 return;
             }
         }
         {
-            using _q_method_type = void (ScrcpyController::*)(const QString & );
-            if (_q_method_type _q_method = &ScrcpyController::error; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            using _q_method_type = void (ScrcpyController::*)();
+            if (_q_method_type _q_method = &ScrcpyController::stopped; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 2;
                 return;
             }
         }
         {
             using _q_method_type = void (ScrcpyController::*)(const QString & );
-            if (_q_method_type _q_method = &ScrcpyController::logOutput; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+            if (_q_method_type _q_method = &ScrcpyController::error; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 3;
+                return;
+            }
+        }
+        {
+            using _q_method_type = void (ScrcpyController::*)(const QString & );
+            if (_q_method_type _q_method = &ScrcpyController::logOutput; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 4;
                 return;
             }
         }
@@ -207,14 +220,14 @@ int core::scrcpy::ScrcpyController::qt_metacall(QMetaObject::Call _c, int _id, v
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 9)
+        if (_id < 10)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 9;
+        _id -= 10;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 9)
+        if (_id < 10)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 9;
+        _id -= 10;
     }
     return _id;
 }
@@ -226,22 +239,28 @@ void core::scrcpy::ScrcpyController::started()
 }
 
 // SIGNAL 1
-void core::scrcpy::ScrcpyController::stopped()
+void core::scrcpy::ScrcpyController::embedded()
 {
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 
 // SIGNAL 2
-void core::scrcpy::ScrcpyController::error(const QString & _t1)
+void core::scrcpy::ScrcpyController::stopped()
 {
-    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
-    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 
 // SIGNAL 3
-void core::scrcpy::ScrcpyController::logOutput(const QString & _t1)
+void core::scrcpy::ScrcpyController::error(const QString & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void core::scrcpy::ScrcpyController::logOutput(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 QT_WARNING_POP

@@ -371,6 +371,28 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/devicepanel.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtGui/qcursor.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtGui/qbitmap.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
+ E:/Project/AI_Mobile_Test_Studio/services/device_service.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qobject.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstring.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringlist.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimer.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
+ E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
+ E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocess.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h \
+ E:/Project/AI_Mobile_Test_Studio/core/logger/logger.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDateTime \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcalendar.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlocale.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QVBoxLayout \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qlayout.h \
@@ -383,7 +405,6 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/devicepanel.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qframe.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qwidget.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtGui/qpicture.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtGui/qtextdocument.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qurl.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QPushButton \
@@ -392,4 +413,6 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/devicepanel.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QFrame \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qframe.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QGraphicsDropShadowEffect \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qgraphicseffect.h
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qgraphicseffect.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDebug \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdebug.h

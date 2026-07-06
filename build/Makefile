@@ -415,6 +415,30 @@ core/appium/appiumcontroller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AI_Mobile_Test_Studio.dir\build.make CMakeFiles/AI_Mobile_Test_Studio.dir/core/appium/appiumcontroller.cpp.s
 .PHONY : core/appium/appiumcontroller.cpp.s
 
+core/config/configmanager.obj: core/config/configmanager.cpp.obj
+.PHONY : core/config/configmanager.obj
+
+# target to build an object file
+core/config/configmanager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AI_Mobile_Test_Studio.dir\build.make CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj
+.PHONY : core/config/configmanager.cpp.obj
+
+core/config/configmanager.i: core/config/configmanager.cpp.i
+.PHONY : core/config/configmanager.i
+
+# target to preprocess a source file
+core/config/configmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AI_Mobile_Test_Studio.dir\build.make CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.i
+.PHONY : core/config/configmanager.cpp.i
+
+core/config/configmanager.s: core/config/configmanager.cpp.s
+.PHONY : core/config/configmanager.s
+
+# target to generate assembly for a file
+core/config/configmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AI_Mobile_Test_Studio.dir\build.make CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.s
+.PHONY : core/config/configmanager.cpp.s
+
 core/llm/llm_provider.obj: core/llm/llm_provider.cpp.obj
 .PHONY : core/llm/llm_provider.obj
 
@@ -462,6 +486,30 @@ core/logger/logger.s: core/logger/logger.cpp.s
 core/logger/logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AI_Mobile_Test_Studio.dir\build.make CMakeFiles/AI_Mobile_Test_Studio.dir/core/logger/logger.cpp.s
 .PHONY : core/logger/logger.cpp.s
+
+core/scrcpy/scrcpycontroller.obj: core/scrcpy/scrcpycontroller.cpp.obj
+.PHONY : core/scrcpy/scrcpycontroller.obj
+
+# target to build an object file
+core/scrcpy/scrcpycontroller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AI_Mobile_Test_Studio.dir\build.make CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj
+.PHONY : core/scrcpy/scrcpycontroller.cpp.obj
+
+core/scrcpy/scrcpycontroller.i: core/scrcpy/scrcpycontroller.cpp.i
+.PHONY : core/scrcpy/scrcpycontroller.i
+
+# target to preprocess a source file
+core/scrcpy/scrcpycontroller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AI_Mobile_Test_Studio.dir\build.make CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.i
+.PHONY : core/scrcpy/scrcpycontroller.cpp.i
+
+core/scrcpy/scrcpycontroller.s: core/scrcpy/scrcpycontroller.cpp.s
+.PHONY : core/scrcpy/scrcpycontroller.s
+
+# target to generate assembly for a file
+core/scrcpy/scrcpycontroller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AI_Mobile_Test_Studio.dir\build.make CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.s
+.PHONY : core/scrcpy/scrcpycontroller.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -673,12 +721,18 @@ help:
 	@echo ... core/appium/appiumcontroller.obj
 	@echo ... core/appium/appiumcontroller.i
 	@echo ... core/appium/appiumcontroller.s
+	@echo ... core/config/configmanager.obj
+	@echo ... core/config/configmanager.i
+	@echo ... core/config/configmanager.s
 	@echo ... core/llm/llm_provider.obj
 	@echo ... core/llm/llm_provider.i
 	@echo ... core/llm/llm_provider.s
 	@echo ... core/logger/logger.obj
 	@echo ... core/logger/logger.i
 	@echo ... core/logger/logger.s
+	@echo ... core/scrcpy/scrcpycontroller.obj
+	@echo ... core/scrcpy/scrcpycontroller.i
+	@echo ... core/scrcpy/scrcpycontroller.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

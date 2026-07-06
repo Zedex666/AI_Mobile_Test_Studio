@@ -45,7 +45,9 @@ static constexpr auto qt_meta_stringdata_ZN8TitleBarE = QtMocHelpers::stringData
     "moreClicked",
     "notificationClicked",
     "settingsClicked",
-    "userProfileClicked"
+    "userProfileClicked",
+    "deviceSelected",
+    "deviceId"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -57,21 +59,22 @@ Q_CONSTINIT static const uint qt_meta_data_ZN8TitleBarE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       7,       // signalCount
+       8,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   56,    2, 0x06,    1 /* Public */,
-       3,    0,   57,    2, 0x06,    2 /* Public */,
-       4,    0,   58,    2, 0x06,    3 /* Public */,
-       5,    0,   59,    2, 0x06,    4 /* Public */,
-       6,    0,   60,    2, 0x06,    5 /* Public */,
-       7,    0,   61,    2, 0x06,    6 /* Public */,
-       8,    0,   62,    2, 0x06,    7 /* Public */,
+       1,    0,   62,    2, 0x06,    1 /* Public */,
+       3,    0,   63,    2, 0x06,    2 /* Public */,
+       4,    0,   64,    2, 0x06,    3 /* Public */,
+       5,    0,   65,    2, 0x06,    4 /* Public */,
+       6,    0,   66,    2, 0x06,    5 /* Public */,
+       7,    0,   67,    2, 0x06,    6 /* Public */,
+       8,    0,   68,    2, 0x06,    7 /* Public */,
+       9,    1,   69,    2, 0x06,    8 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -81,6 +84,7 @@ Q_CONSTINIT static const uint qt_meta_data_ZN8TitleBarE[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   10,
 
        0        // eod
 };
@@ -107,7 +111,10 @@ Q_CONSTINIT const QMetaObject TitleBar::staticMetaObject = { {
         // method 'settingsClicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'userProfileClicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'deviceSelected'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
     >,
     nullptr
 } };
@@ -124,6 +131,7 @@ void TitleBar::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         case 4: _t->notificationClicked(); break;
         case 5: _t->settingsClicked(); break;
         case 6: _t->userProfileClicked(); break;
+        case 7: _t->deviceSelected((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     }
@@ -178,6 +186,13 @@ void TitleBar::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
                 return;
             }
         }
+        {
+            using _q_method_type = void (TitleBar::*)(const QString & );
+            if (_q_method_type _q_method = &TitleBar::deviceSelected; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 7;
+                return;
+            }
+        }
     }
 }
 
@@ -200,14 +215,14 @@ int TitleBar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 8;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 7;
+        _id -= 8;
     }
     return _id;
 }
@@ -252,5 +267,12 @@ void TitleBar::settingsClicked()
 void TitleBar::userProfileClicked()
 {
     QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
+}
+
+// SIGNAL 7
+void TitleBar::deviceSelected(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 7, _a);
 }
 QT_WARNING_POP

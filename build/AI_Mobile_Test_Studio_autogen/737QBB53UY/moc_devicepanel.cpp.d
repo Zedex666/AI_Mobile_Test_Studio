@@ -1,5 +1,11 @@
 E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/737QBB53UY/moc_devicepanel.cpp: E:/Project/AI_Mobile_Test_Studio/app/widgets/devicepanel.h \
   E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/moc_predefs.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20functional.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20iterator.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20memory.h \
@@ -15,6 +21,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/737QBB53UY/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qatomic.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbindingstorage.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbytearray.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -46,6 +53,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/737QBB53UY/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qglobalstatic.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qhash.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qhashfunctions.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevicebase.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiterable.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiterator.h \
@@ -69,6 +77,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/737QBB53UY/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qoverload.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qpair.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qpoint.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocess.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocessordetection.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qrect.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qrefcount.h \
@@ -105,6 +114,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/737QBB53UY/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtextstream.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimer.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtnoop.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -357,4 +367,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/737QBB53UY/
   D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+  D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
+  E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.h \
+  E:/Project/AI_Mobile_Test_Studio/services/device_service.h

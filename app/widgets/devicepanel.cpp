@@ -1,4 +1,5 @@
 #include "devicepanel.h"
+#include "core/logger/logger.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QLabel>
@@ -15,12 +16,17 @@ DevicePanel::DevicePanel(QWidget *parent)
     setupStyle();
 
     connect(m_scrcpy, &core::scrcpy::ScrcpyController::started, this, [this]() {
-        m_phoneScreen->setText(tr(""));
+        // Keep placeholder visible until window is actually embedded
+    });
+    connect(m_scrcpy, &core::scrcpy::ScrcpyController::embedded, this, [this]() {
+        m_phoneScreen->hide();
     });
     connect(m_scrcpy, &core::scrcpy::ScrcpyController::stopped, this, [this]() {
+        m_phoneScreen->show();
         m_phoneScreen->setText(tr("手机屏幕画面\n(Scrcpy 未启动)"));
     });
     connect(m_scrcpy, &core::scrcpy::ScrcpyController::error, this, [this](const QString &msg) {
+        m_phoneScreen->show();
         m_phoneScreen->setText(tr("Scrcpy 启动失败\n%1").arg(msg));
         qWarning() << "Scrcpy error:" << msg;
     });
@@ -74,8 +80,21 @@ void DevicePanel::setupUI()
     QHBoxLayout *phoneLayout = new QHBoxLayout();
     phoneLayout->setSpacing(12);
 
-    // Left: Phone screen with bezel frame
-    m_phoneFrame = new QFrame(this);
+    // Wrapper widget for the drop shadow.
+    // IMPORTANT: the shadow effect must NOT be on m_phoneFrame itself,
+    // because m_phoneFrame hosts the natively-embedded Scrcpy window.
+    // QGraphicsEffect redirects painting through an offscreen buffer
+    // which can hide native child windows on Windows.
+    QWidget *phoneShadowWrapper = new QWidget(this);
+    QVBoxLayout *wrapperLayout = new QVBoxLayout(phoneShadowWrapper);
+    // Padding accommodates the shadow blur (32px) and offset (0, 10)
+    wrapperLayout->setContentsMargins(16, 16, 16, 26);
+    wrapperLayout->setSpacing(0);
+
+    // Phone bezel frame — hosts the embedded Scrcpy native window.
+    // WA_NativeWindow ensures a stable HWND that persists across layout changes.
+    m_phoneFrame = new QFrame(phoneShadowWrapper);
+    m_phoneFrame->setAttribute(Qt::WA_NativeWindow, true);
     m_phoneFrame->setStyleSheet(R"(
         QFrame {
             background-color: #1F2937;
@@ -86,7 +105,7 @@ void DevicePanel::setupUI()
     QVBoxLayout *phoneFrameLayout = new QVBoxLayout(m_phoneFrame);
     phoneFrameLayout->setContentsMargins(6, 6, 6, 6);
 
-    m_phoneScreen = new QLabel(this);
+    m_phoneScreen = new QLabel(phoneShadowWrapper);
     m_phoneScreen->setMinimumSize(260, 520);
     m_phoneScreen->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
     m_phoneScreen->setAlignment(Qt::AlignCenter);
@@ -98,17 +117,19 @@ void DevicePanel::setupUI()
         font-size: 14px;
     )");
 
-    // Add shadow effect to phone
+    // Apply drop shadow to the WRAPPER, not to m_phoneFrame.
+    // The wrapper only contains the phone bezel frame — no native child windows.
     QGraphicsDropShadowEffect *shadow = new QGraphicsDropShadowEffect(this);
     shadow->setBlurRadius(32);
     shadow->setColor(QColor(0, 0, 0, 80));
     shadow->setOffset(0, 10);
-    m_phoneFrame->setGraphicsEffect(shadow);
+    phoneShadowWrapper->setGraphicsEffect(shadow);
 
     phoneFrameLayout->addWidget(m_phoneScreen);
-    phoneLayout->addWidget(m_phoneFrame, 1);
+    wrapperLayout->addWidget(m_phoneFrame);
+    phoneLayout->addWidget(phoneShadowWrapper, 1);
 
-    // Scrcpy embed container
+    // Scrcpy embed container — m_phoneFrame has no graphics effect, safe for native embedding
     m_scrcpy->setEmbedContainer(m_phoneFrame);
 
     // Right: Side control buttons
@@ -199,6 +220,8 @@ void DevicePanel::setupStyle()
 
 void DevicePanel::setDeviceInfo(const services::DeviceInfo &info)
 {
+    core::logger::Logger::instance()->info("DevicePanel",
+        tr("setDeviceInfo id=%1 connected=%2 running=%3").arg(info.id).arg(info.isConnected).arg(isScrcpyRunning()));
     m_currentInfo = info;
 
     if (info.id.isEmpty()) {
@@ -213,7 +236,11 @@ void DevicePanel::setDeviceInfo(const services::DeviceInfo &info)
 
     // Auto-start scrcpy if connected and not already running
     if (info.isConnected && !isScrcpyRunning()) {
+        core::logger::Logger::instance()->info("DevicePanel", tr("Auto-starting scrcpy for %1").arg(info.id));
         startScrcpy(info.id);
+    } else {
+        core::logger::Logger::instance()->info("DevicePanel",
+            tr("Skip scrcpy: isConnected=%1 isRunning=%2").arg(info.isConnected).arg(isScrcpyRunning()));
     }
 }
 
@@ -229,9 +256,13 @@ void DevicePanel::setAdbAvailable(bool available)
 bool DevicePanel::startScrcpy(const QString &deviceId)
 {
     if (!m_scrcpy->isAvailable()) {
+        m_phoneScreen->show();
         m_phoneScreen->setText(tr("Scrcpy 未找到\n请安装 scrcpy 并确保在 PATH 中"));
         return false;
     }
+
+    m_phoneScreen->show();
+    m_phoneScreen->setText(tr("正在启动 Scrcpy..."));
 
     m_scrcpy->setDevice(deviceId);
     return m_scrcpy->start();

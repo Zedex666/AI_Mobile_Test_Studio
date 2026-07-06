@@ -13,11 +13,11 @@ DeviceService::DeviceService(QObject *parent)
 
     connect(m_pollTimer, &QTimer::timeout, this, &DeviceService::onPollTimeout);
 
-    // Initial check
+    // Initial check (only check adb availability, do not update devices yet
+    // because signal connections in MainWindow may not be ready)
     m_adbAvailable = m_adb->isAvailable();
     if (m_adbAvailable) {
         core::logger::Logger::instance()->info("ADB", tr("ADB available at: %1").arg(m_adb->adbPath()));
-        updateDevices();
     } else {
         core::logger::Logger::instance()->warning("ADB", tr("ADB not found in PATH or sdk/adb/"));
     }
@@ -68,6 +68,8 @@ void DeviceService::refreshDevices()
         emit adbStatusChanged(m_adbAvailable);
     }
 
+    core::logger::Logger::instance()->info("DeviceService", tr("refreshDevices: adbAvailable=%1").arg(m_adbAvailable));
+
     if (m_adbAvailable) {
         updateDevices();
     } else {
@@ -112,16 +114,27 @@ void DeviceService::updateDevices()
 {
     QMap<QString, core::adb::DeviceDetail> details = m_adb->deviceDetails();
 
+    core::logger::Logger::instance()->info("DeviceService", tr("updateDevices: found %1 device(s)").arg(details.size()));
+
     // Detect disconnections
+    bool currentDisconnected = false;
     for (auto it = m_devices.begin(); it != m_devices.end(); ) {
         if (!details.contains(it.key())) {
             QString id = it.key();
+            if (id == m_currentDevice) {
+                currentDisconnected = true;
+            }
             core::logger::Logger::instance()->info("Device", tr("Device disconnected: %1").arg(id));
             emit deviceDisconnected(id);
             it = m_devices.erase(it);
         } else {
             ++it;
         }
+    }
+
+    // Clear current device if it was disconnected
+    if (currentDisconnected) {
+        setCurrentDevice(QString());
     }
 
     // Detect new connections and updates
@@ -137,6 +150,9 @@ void DeviceService::updateDevices()
         info.batteryLevel = detail.batteryLevel;
         info.isConnected = (detail.status == "device");
         info.isEmulator = detail.isEmulator;
+
+        core::logger::Logger::instance()->info("DeviceService",
+            tr("Device %1 status=%2 connected=%3").arg(info.id, detail.status).arg(info.isConnected));
 
         m_devices[it.key()] = info;
 

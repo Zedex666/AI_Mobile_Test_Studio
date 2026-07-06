@@ -63,6 +63,8 @@
         "logs": "./logs",
         "scripts": "./scripts",
         "plugins": "./plugins",
-        "sdk": "./sdk"
+        "sdk": "./sdk",
+        "scrcpy": "D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe",
+        "adb": "D:/myApp_666666666666666/platform-tools/adb.exe"
     }
 }

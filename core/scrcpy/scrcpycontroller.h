@@ -31,6 +31,7 @@ public:
 
 signals:
     void started();
+    void embedded();
     void stopped();
     void error(const QString &message);
     void logOutput(const QString &text);

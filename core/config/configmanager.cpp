@@ -176,6 +176,7 @@ QString ConfigManager::findScrcpy() const
         "C:/Program Files/scrcpy/scrcpy.exe",
         "C:/Program Files (x86)/scrcpy/scrcpy.exe",
         QCoreApplication::applicationDirPath() + "/sdk/scrcpy/scrcpy.exe",
+        "D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe",
     };
     for (const QString &path : candidates) {
         if (!path.isEmpty() && QFile::exists(path)) return path;

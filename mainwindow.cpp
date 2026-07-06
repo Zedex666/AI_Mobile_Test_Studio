@@ -159,11 +159,28 @@ void MainWindow::setupServices()
     connect(m_deviceService, &services::DeviceService::adbStatusChanged,
             m_devicePanel, &DevicePanel::setAdbAvailable);
 
-    // Connect device panel scrcpy log to terminal
-    // (ScrcpyController logOutput can be connected here if needed)
+    // Connect device panel refresh button — refresh devices and restart scrcpy
+    connect(m_devicePanel, &DevicePanel::refreshClicked, this, [this]() {
+        core::logger::Logger::instance()->info("MainWindow", tr("DevicePanel refresh clicked"));
+        // Refresh device list from ADB
+        m_deviceService->refreshDevices();
+        // Force restart scrcpy for the current device (if any)
+        m_devicePanel->stopScrcpy();
+        QString currentId = m_deviceService->currentDevice();
+        if (!currentId.isEmpty()) {
+            services::DeviceInfo info = m_deviceService->deviceInfo(currentId);
+            if (info.isConnected) {
+                m_devicePanel->setDeviceInfo(info);
+            }
+        }
+    });
 
     // Start polling
     m_deviceService->startPolling(3000);
+
+    // IMPORTANT: trigger an immediate refresh AFTER all signals are connected
+    // so that already-connected devices are detected and auto-start scrcpy
+    m_deviceService->refreshDevices();
 
     core::logger::Logger::instance()->info("MainWindow", tr("Services initialized, device polling started"));
 }

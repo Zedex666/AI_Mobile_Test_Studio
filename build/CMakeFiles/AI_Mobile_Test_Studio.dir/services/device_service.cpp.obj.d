@@ -324,4 +324,29 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimer.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qobject.h \
+ E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
+ E:/Project/AI_Mobile_Test_Studio/core/logger/logger.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDateTime \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcalendar.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlocale.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qvariant.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdebug.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtextstream.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcontiguouscache.h \
+ D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsharedpointer.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qset.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qhash.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qvarlengtharray.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDebug \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdebug.h

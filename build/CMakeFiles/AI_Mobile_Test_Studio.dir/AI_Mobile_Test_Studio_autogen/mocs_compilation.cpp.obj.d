@@ -377,24 +377,33 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/mocs_compilat
  E:/Project/AI_Mobile_Test_Studio/app/widgets/chatpanel.h \
  E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\737QBB53UY/moc_devicepanel.cpp \
  E:/Project/AI_Mobile_Test_Studio/app/widgets/devicepanel.h \
- E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\737QBB53UY/moc_navigationbar.cpp \
- E:/Project/AI_Mobile_Test_Studio/app/widgets/navigationbar.h \
- E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\737QBB53UY/moc_titlebar.cpp \
- E:/Project/AI_Mobile_Test_Studio/app/widgets/titlebar.h \
- E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\SGEJK4MHAC/moc_adbcontroller.cpp \
- E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
+ E:/Project/AI_Mobile_Test_Studio/services/device_service.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qobject.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstring.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringlist.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimer.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
+ E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
+ E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocess.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h \
+ E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\737QBB53UY/moc_navigationbar.cpp \
+ E:/Project/AI_Mobile_Test_Studio/app/widgets/navigationbar.h \
+ E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\737QBB53UY/moc_titlebar.cpp \
+ E:/Project/AI_Mobile_Test_Studio/app/widgets/titlebar.h \
+ E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\SGEJK4MHAC/moc_adbcontroller.cpp \
+ E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
  E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\NPC4IHC6VI/moc_appiumcontroller.cpp \
  E:/Project/AI_Mobile_Test_Studio/core/appium/appiumcontroller.h \
- E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\ZB3PBTHZBL/moc_llm_provider.cpp \
- E:/Project/AI_Mobile_Test_Studio/core/llm/llm_provider.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
+ E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\ZCC6LKUHCO/moc_configmanager.cpp \
+ E:/Project/AI_Mobile_Test_Studio/core/config/configmanager.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QJsonObject \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qjsonobject.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qjsonvalue.h \
@@ -406,10 +415,14 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/mocs_compilat
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qurl.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/quuid.h \
+ E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\ZB3PBTHZBL/moc_llm_provider.cpp \
+ E:/Project/AI_Mobile_Test_Studio/core/llm/llm_provider.h \
  E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\2IIZVQGCRO/moc_logger.cpp \
  E:/Project/AI_Mobile_Test_Studio/core/logger/logger.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDateTime \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdatetime.h \
+ E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\VC5ZWP2WLR/moc_scrcpycontroller.cpp \
+ E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.h \
  E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  E:/Project/AI_Mobile_Test_Studio/mainwindow.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QMainWindow \
@@ -427,7 +440,4 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/mocs_compilat
  E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\3BYFHCGL5U/moc_plugin_service.cpp \
  E:/Project/AI_Mobile_Test_Studio/services/plugin_service.h \
  E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\3BYFHCGL5U/moc_script_service.cpp \
- E:/Project/AI_Mobile_Test_Studio/services/script_service.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocess.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qiodevice.h
+ E:/Project/AI_Mobile_Test_Studio/services/script_service.h

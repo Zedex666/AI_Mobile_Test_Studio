@@ -40,13 +40,17 @@ static constexpr auto qt_meta_stringdata_ZN8services13DeviceServiceE = QtMocHelp
     "services::DeviceService",
     "devicesChanged",
     "",
+    "QMap<QString,DeviceInfo>",
     "devices",
     "deviceConnected",
     "deviceId",
     "deviceDisconnected",
     "currentDeviceChanged",
     "adbStatusChanged",
-    "available"
+    "available",
+    "logOutput",
+    "text",
+    "onPollTimeout"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -58,26 +62,34 @@ Q_CONSTINIT static const uint qt_meta_data_ZN8services13DeviceServiceE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       7,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       5,       // signalCount
+       6,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   44,    2, 0x06,    1 /* Public */,
-       4,    1,   47,    2, 0x06,    3 /* Public */,
-       6,    1,   50,    2, 0x06,    5 /* Public */,
-       7,    1,   53,    2, 0x06,    7 /* Public */,
-       8,    1,   56,    2, 0x06,    9 /* Public */,
+       1,    1,   56,    2, 0x06,    1 /* Public */,
+       5,    1,   59,    2, 0x06,    3 /* Public */,
+       7,    1,   62,    2, 0x06,    5 /* Public */,
+       8,    1,   65,    2, 0x06,    7 /* Public */,
+       9,    1,   68,    2, 0x06,    9 /* Public */,
+      11,    1,   71,    2, 0x06,   11 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+      13,    0,   74,    2, 0x08,   13 /* Private */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QStringList,    3,
-    QMetaType::Void, QMetaType::QString,    5,
-    QMetaType::Void, QMetaType::QString,    5,
-    QMetaType::Void, QMetaType::QString,    5,
-    QMetaType::Void, QMetaType::Bool,    9,
+    QMetaType::Void, 0x80000000 | 3,    4,
+    QMetaType::Void, QMetaType::QString,    6,
+    QMetaType::Void, QMetaType::QString,    6,
+    QMetaType::Void, QMetaType::QString,    6,
+    QMetaType::Void, QMetaType::Bool,   10,
+    QMetaType::Void, QMetaType::QString,   12,
+
+ // slots: parameters
+    QMetaType::Void,
 
        0        // eod
 };
@@ -93,7 +105,7 @@ Q_CONSTINIT const QMetaObject services::DeviceService::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<DeviceService, std::true_type>,
         // method 'devicesChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<const QStringList &, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QMap<QString,DeviceInfo> &, std::false_type>,
         // method 'deviceConnected'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
@@ -105,7 +117,12 @@ Q_CONSTINIT const QMetaObject services::DeviceService::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
         // method 'adbStatusChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<bool, std::false_type>
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        // method 'logOutput'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>,
+        // method 'onPollTimeout'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -115,18 +132,20 @@ void services::DeviceService::qt_static_metacall(QObject *_o, QMetaObject::Call 
     auto *_t = static_cast<DeviceService *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->devicesChanged((*reinterpret_cast< std::add_pointer_t<QStringList>>(_a[1]))); break;
+        case 0: _t->devicesChanged((*reinterpret_cast< std::add_pointer_t<QMap<QString,DeviceInfo>>>(_a[1]))); break;
         case 1: _t->deviceConnected((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 2: _t->deviceDisconnected((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 3: _t->currentDeviceChanged((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 4: _t->adbStatusChanged((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
+        case 5: _t->logOutput((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 6: _t->onPollTimeout(); break;
         default: ;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _q_method_type = void (DeviceService::*)(const QStringList & );
+            using _q_method_type = void (DeviceService::*)(const QMap<QString,DeviceInfo> & );
             if (_q_method_type _q_method = &DeviceService::devicesChanged; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
@@ -160,6 +179,13 @@ void services::DeviceService::qt_static_metacall(QObject *_o, QMetaObject::Call 
                 return;
             }
         }
+        {
+            using _q_method_type = void (DeviceService::*)(const QString & );
+            if (_q_method_type _q_method = &DeviceService::logOutput; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 5;
+                return;
+            }
+        }
     }
 }
 
@@ -182,20 +208,20 @@ int services::DeviceService::qt_metacall(QMetaObject::Call _c, int _id, void **_
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 7)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 7;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 7)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 5;
+        _id -= 7;
     }
     return _id;
 }
 
 // SIGNAL 0
-void services::DeviceService::devicesChanged(const QStringList & _t1)
+void services::DeviceService::devicesChanged(const QMap<QString,DeviceInfo> & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
@@ -227,5 +253,12 @@ void services::DeviceService::adbStatusChanged(bool _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void services::DeviceService::logOutput(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
 }
 QT_WARNING_POP

@@ -4,6 +4,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/3BYFHCGL5U/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20functional.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20memory.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20type_traits.h \
@@ -16,6 +17,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/3BYFHCGL5U/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qatomic.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qatomic_cxx11.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasicatomic.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbindingstorage.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbytearray.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -92,6 +94,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/3BYFHCGL5U/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtdeprecationdefinitions.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtenvironmentvariables.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimer.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtmetamacros.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtnoop.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -309,4 +312,5 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/3BYFHCGL5U/
   D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
+  D:/myApp_666666666666666/QT/app/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
+  E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h

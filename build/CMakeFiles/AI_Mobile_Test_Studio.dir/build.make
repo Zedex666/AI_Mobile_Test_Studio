@@ -256,11 +256,41 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/core/llm/llm_provider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AI_Mobile_Test_Studio.dir/core/llm/llm_provider.cpp.s"
 	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\AI_Mobile_Test_Studio\core\llm\llm_provider.cpp -o CMakeFiles\AI_Mobile_Test_Studio.dir\core\llm\llm_provider.cpp.s
 
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/flags.make
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj: E:/Project/AI_Mobile_Test_Studio/core/config/configmanager.cpp
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj"
+	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj -MF CMakeFiles\AI_Mobile_Test_Studio.dir\core\config\configmanager.cpp.obj.d -o CMakeFiles\AI_Mobile_Test_Studio.dir\core\config\configmanager.cpp.obj -c E:\Project\AI_Mobile_Test_Studio\core\config\configmanager.cpp
+
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.i"
+	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\AI_Mobile_Test_Studio\core\config\configmanager.cpp > CMakeFiles\AI_Mobile_Test_Studio.dir\core\config\configmanager.cpp.i
+
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.s"
+	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\AI_Mobile_Test_Studio\core\config\configmanager.cpp -o CMakeFiles\AI_Mobile_Test_Studio.dir\core\config\configmanager.cpp.s
+
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/flags.make
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj: E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.cpp
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj"
+	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj -MF CMakeFiles\AI_Mobile_Test_Studio.dir\core\scrcpy\scrcpycontroller.cpp.obj.d -o CMakeFiles\AI_Mobile_Test_Studio.dir\core\scrcpy\scrcpycontroller.cpp.obj -c E:\Project\AI_Mobile_Test_Studio\core\scrcpy\scrcpycontroller.cpp
+
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.i"
+	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\AI_Mobile_Test_Studio\core\scrcpy\scrcpycontroller.cpp > CMakeFiles\AI_Mobile_Test_Studio.dir\core\scrcpy\scrcpycontroller.cpp.i
+
+CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.s"
+	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\AI_Mobile_Test_Studio\core\scrcpy\scrcpycontroller.cpp -o CMakeFiles\AI_Mobile_Test_Studio.dir\core\scrcpy\scrcpycontroller.cpp.s
+
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/flags.make
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj: E:/Project/AI_Mobile_Test_Studio/services/chat_service.cpp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj"
 	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj -MF CMakeFiles\AI_Mobile_Test_Studio.dir\services\chat_service.cpp.obj.d -o CMakeFiles\AI_Mobile_Test_Studio.dir\services\chat_service.cpp.obj -c E:\Project\AI_Mobile_Test_Studio\services\chat_service.cpp
 
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.i: cmake_force
@@ -275,7 +305,7 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj: CMakeFiles
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj: E:/Project/AI_Mobile_Test_Studio/services/device_service.cpp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj"
 	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj -MF CMakeFiles\AI_Mobile_Test_Studio.dir\services\device_service.cpp.obj.d -o CMakeFiles\AI_Mobile_Test_Studio.dir\services\device_service.cpp.obj -c E:\Project\AI_Mobile_Test_Studio\services\device_service.cpp
 
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.i: cmake_force
@@ -290,7 +320,7 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj: CMakeFiles/AI_
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj: E:/Project/AI_Mobile_Test_Studio/services/ai_service.cpp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj"
 	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj -MF CMakeFiles\AI_Mobile_Test_Studio.dir\services\ai_service.cpp.obj.d -o CMakeFiles\AI_Mobile_Test_Studio.dir\services\ai_service.cpp.obj -c E:\Project\AI_Mobile_Test_Studio\services\ai_service.cpp
 
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.i: cmake_force
@@ -305,7 +335,7 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.obj: CMakeFiles
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.obj: E:/Project/AI_Mobile_Test_Studio/services/script_service.cpp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.obj"
 	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.obj -MF CMakeFiles\AI_Mobile_Test_Studio.dir\services\script_service.cpp.obj.d -o CMakeFiles\AI_Mobile_Test_Studio.dir\services\script_service.cpp.obj -c E:\Project\AI_Mobile_Test_Studio\services\script_service.cpp
 
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/script_service.cpp.i: cmake_force
@@ -320,7 +350,7 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.obj: CMakeFiles
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.obj: E:/Project/AI_Mobile_Test_Studio/services/plugin_service.cpp
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.obj"
 	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.obj -MF CMakeFiles\AI_Mobile_Test_Studio.dir\services\plugin_service.cpp.obj.d -o CMakeFiles\AI_Mobile_Test_Studio.dir\services\plugin_service.cpp.obj -c E:\Project\AI_Mobile_Test_Studio\services\plugin_service.cpp
 
 CMakeFiles/AI_Mobile_Test_Studio.dir/services/plugin_service.cpp.i: cmake_force
@@ -335,7 +365,7 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qr
 CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/includes_CXX.rsp
 CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp.obj: AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/AI_Mobile_Test_Studio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
 	D:\myApp_666666666666666\QT\app\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp.obj -MF CMakeFiles\AI_Mobile_Test_Studio.dir\AI_Mobile_Test_Studio_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d -o CMakeFiles\AI_Mobile_Test_Studio.dir\AI_Mobile_Test_Studio_autogen\EWIEGA46WW\qrc_resources.cpp.obj -c E:\Project\AI_Mobile_Test_Studio\build\AI_Mobile_Test_Studio_autogen\EWIEGA46WW\qrc_resources.cpp
 
 CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
@@ -360,6 +390,8 @@ AI_Mobile_Test_Studio_OBJECTS = \
 "CMakeFiles/AI_Mobile_Test_Studio.dir/core/appium/appiumcontroller.cpp.obj" \
 "CMakeFiles/AI_Mobile_Test_Studio.dir/core/logger/logger.cpp.obj" \
 "CMakeFiles/AI_Mobile_Test_Studio.dir/core/llm/llm_provider.cpp.obj" \
+"CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj" \
+"CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj" \
 "CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj" \
 "CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj" \
 "CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj" \
@@ -382,6 +414,8 @@ AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/core/adb/adbcont
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/core/appium/appiumcontroller.cpp.obj
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/core/logger/logger.cpp.obj
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/core/llm/llm_provider.cpp.obj
+AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/core/config/configmanager.cpp.obj
+AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/core/scrcpy/scrcpycontroller.cpp.obj
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/services/chat_service.cpp.obj
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/services/ai_service.cpp.obj
@@ -396,9 +430,10 @@ AI_Mobile_Test_Studio.exe: D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/lib/li
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/linkLibs.rsp
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/objects1.rsp
 AI_Mobile_Test_Studio.exe: CMakeFiles/AI_Mobile_Test_Studio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable AI_Mobile_Test_Studio.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Project\AI_Mobile_Test_Studio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable AI_Mobile_Test_Studio.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AI_Mobile_Test_Studio.dir\link.txt --verbose=$(VERBOSE)
 	D:\myApp_666666666666666\QT\app\Tools\CMake_64\bin\cmake.exe -E copy_directory E:/Project/AI_Mobile_Test_Studio/resources E:/Project/AI_Mobile_Test_Studio/build/resources
+	D:\myApp_666666666666666\QT\app\Tools\CMake_64\bin\cmake.exe -E copy_directory E:/Project/AI_Mobile_Test_Studio/config E:/Project/AI_Mobile_Test_Studio/build/config
 
 # Rule to build all files generated by this target.
 CMakeFiles/AI_Mobile_Test_Studio.dir/build: AI_Mobile_Test_Studio.exe

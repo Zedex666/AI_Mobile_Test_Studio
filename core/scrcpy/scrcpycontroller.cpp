@@ -1,5 +1,6 @@
 #include "scrcpycontroller.h"
 #include "core/config/configmanager.h"
+#include "core/logger/logger.h"
 #include <QDebug>
 #include <QDir>
 #include <QWidget>
@@ -39,6 +40,9 @@ ScrcpyController::~ScrcpyController()
 
 bool ScrcpyController::isAvailable() const
 {
+    bool exists = QFile::exists(m_scrcpyPath);
+    core::logger::Logger::instance()->info("ScrcpyController",
+        tr("isAvailable: path=%1 exists=%2").arg(m_scrcpyPath).arg(exists));
     if (m_scrcpyPath.isEmpty()) return false;
     QFileInfo info(m_scrcpyPath);
     return info.exists() && info.isExecutable();
@@ -61,6 +65,8 @@ void ScrcpyController::setDevice(const QString &deviceId)
 
 bool ScrcpyController::start(int maxSize, int bitRate, int maxFps)
 {
+    core::logger::Logger::instance()->info("ScrcpyController",
+        tr("start() called, running=%1").arg(isRunning()));
     if (isRunning()) {
         stop();
     }
@@ -78,7 +84,9 @@ bool ScrcpyController::start(int maxSize, int bitRate, int maxFps)
     args << "--bit-rate" << QString::number(bitRate);
     args << "--max-fps" << QString::number(maxFps);
     args << "--no-control";
-    args << "--render-expired-frames";
+    // NOTE: --render-expired-frames was removed in scrcpy 3.0+ (always enabled by default).
+    // Including it causes scrcpy v3.x/v4.x to exit with "Unknown option" error.
+    // args << "--render-expired-frames";
     args << "--window-title" << "AMTS_Scrcpy_" + m_deviceId;
 
     if (m_embedContainer) {
@@ -86,14 +94,17 @@ bool ScrcpyController::start(int maxSize, int bitRate, int maxFps)
         args << "--window-borderless";
     }
 
-    qDebug() << "Starting scrcpy:" << m_scrcpyPath << args;
+    core::logger::Logger::instance()->info("ScrcpyController",
+        tr("Starting scrcpy: %1 %2").arg(m_scrcpyPath).arg(args.join(" ")));
     m_process->start(m_scrcpyPath, args);
 
     if (!m_process->waitForStarted(5000)) {
+        core::logger::Logger::instance()->error("ScrcpyController", tr("waitForStarted FAILED"));
         emit error(tr("Failed to start scrcpy"));
         return false;
     }
 
+    core::logger::Logger::instance()->info("ScrcpyController", tr("waitForStarted SUCCESS"));
     m_isRunning = true;
     emit started();
 
@@ -150,8 +161,15 @@ void ScrcpyController::updateEmbedGeometry()
 
 void ScrcpyController::onProcessFinished(int exitCode, QProcess::ExitStatus status)
 {
-    Q_UNUSED(exitCode)
-    Q_UNUSED(status)
+    // Read any remaining stderr output before logging exit
+    QString remainingErr = QString::fromUtf8(m_process->readAllStandardError()).trimmed();
+    if (!remainingErr.isEmpty()) {
+        core::logger::Logger::instance()->error("ScrcpyController",
+            tr("scrcpy stderr (late): %1").arg(remainingErr));
+    }
+    core::logger::Logger::instance()->info("ScrcpyController",
+        tr("scrcpy process exited: code=%1 status=%2").arg(exitCode)
+            .arg(status == QProcess::NormalExit ? "normal" : "crash"));
     m_isRunning = false;
     m_embedTimer->stop();
 #ifdef Q_OS_WIN
@@ -168,16 +186,29 @@ void ScrcpyController::onProcessError(QProcess::ProcessError procError)
 
 void ScrcpyController::onReadyReadStandardOutput()
 {
-    QString text = QString::fromUtf8(m_process->readAllStandardOutput());
+    QString text = QString::fromUtf8(m_process->readAllStandardOutput()).trimmed();
     if (!text.isEmpty()) {
+        core::logger::Logger::instance()->info("ScrcpyController",
+            tr("scrcpy stdout: %1").arg(text));
         emit logOutput(text);
     }
 }
 
 void ScrcpyController::onReadyReadStandardError()
 {
-    QString text = QString::fromUtf8(m_process->readAllStandardError());
+    QString text = QString::fromUtf8(m_process->readAllStandardError()).trimmed();
     if (!text.isEmpty()) {
+        // scrcpy writes info to stderr by default — treat as info, not warning,
+        // but flag errors explicitly so they stand out in the log
+        if (text.contains("ERROR", Qt::CaseInsensitive)
+            || text.contains("error:", Qt::CaseInsensitive)
+            || text.contains("Unknown option", Qt::CaseInsensitive)) {
+            core::logger::Logger::instance()->error("ScrcpyController",
+                tr("scrcpy stderr: %1").arg(text));
+        } else {
+            core::logger::Logger::instance()->info("ScrcpyController",
+                tr("scrcpy stderr: %1").arg(text));
+        }
         emit logOutput(text);
     }
 }
@@ -205,39 +236,111 @@ void ScrcpyController::tryEmbedWindow()
 #ifdef Q_OS_WIN
 bool ScrcpyController::embedNativeWindow()
 {
-    if (!m_containerHwnd) return false;
+    if (!m_containerHwnd) {
+        core::logger::Logger::instance()->warning("ScrcpyController", "embedNativeWindow: no container HWND");
+        return false;
+    }
 
     // Find scrcpy window by title pattern
-    QString title = QString("AMTS_Scrcpy_" + m_deviceId).toUtf8();
-    HWND hwnd = FindWindowW(nullptr, reinterpret_cast<const wchar_t*>(
-        QString("AMTS_Scrcpy_" + m_deviceId).utf16()));
+    QString expectedTitle = "AMTS_Scrcpy_" + m_deviceId;
+    HWND hwnd = FindWindowW(nullptr, reinterpret_cast<const wchar_t*>(expectedTitle.utf16()));
+    core::logger::Logger::instance()->info("ScrcpyController",
+        tr("Looking for window title='%1' hwnd=%2").arg(expectedTitle).arg(reinterpret_cast<quintptr>(hwnd)));
 
     if (!hwnd) {
-        // Try without device suffix
+        // Try without device suffix (some scrcpy versions may trim or modify the title)
         hwnd = FindWindowW(nullptr, L"scrcpy");
+        core::logger::Logger::instance()->info("ScrcpyController",
+            tr("Fallback title 'scrcpy' hwnd=%1").arg(reinterpret_cast<quintptr>(hwnd)));
+    }
+    if (!hwnd) {
+        // Try to find by SDL app class name (scrcpy uses SDL2 internally)
+        hwnd = FindWindowW(L"SDL_app", nullptr);
+        core::logger::Logger::instance()->info("ScrcpyController",
+            tr("Fallback class 'SDL_app' hwnd=%1").arg(reinterpret_cast<quintptr>(hwnd)));
+    }
+    if (!hwnd) {
+        // Enumerate top-level windows — search for ANY window containing "scrcpy"
+        // (case-insensitive). This handles all scrcpy version variations.
+        EnumWindows([](HWND h, LPARAM lParam) -> BOOL {
+            auto *outHwnd = reinterpret_cast<HWND*>(lParam);
+            wchar_t buf[256];
+            if (GetWindowTextW(h, buf, 256) > 0) {
+                wchar_t lower[256];
+                for (int i = 0; buf[i] && i < 255; i++) {
+                    lower[i] = towlower(buf[i]);
+                    lower[i + 1] = L'\0';
+                }
+                if (wcsstr(lower, L"scrcpy") != nullptr) {
+                    *outHwnd = h;
+                    core::logger::Logger::instance()->info("ScrcpyController",
+                        tr("EnumWindows (title) found scrcpy window: title='%1' hwnd=%2")
+                            .arg(QString::fromWCharArray(buf))
+                            .arg(reinterpret_cast<quintptr>(h)));
+                    return FALSE;
+                }
+            }
+            return TRUE;
+        }, reinterpret_cast<LPARAM>(&hwnd));
+    }
+    if (!hwnd) {
+        // Most reliable fallback: find the window by process ID.
+        // This works regardless of window title, class name, or scrcpy version.
+        DWORD scrcpyPid = static_cast<DWORD>(m_process->processId());
+        if (scrcpyPid != 0) {
+            struct PidSearchData {
+                DWORD pid;
+                HWND *outHwnd;
+            } pidData = { scrcpyPid, &hwnd };
+            EnumWindows([](HWND h, LPARAM lParam) -> BOOL {
+                auto *data = reinterpret_cast<PidSearchData*>(lParam);
+                DWORD pid = 0;
+                GetWindowThreadProcessId(h, &pid);
+                if (pid == data->pid && IsWindowVisible(h)) {
+                    *data->outHwnd = h;
+                    wchar_t buf[256];
+                    GetWindowTextW(h, buf, 256);
+                    core::logger::Logger::instance()->info("ScrcpyController",
+                        tr("EnumWindows (PID) found scrcpy: pid=%1 title='%2' hwnd=%3")
+                            .arg(data->pid)
+                            .arg(QString::fromWCharArray(buf))
+                            .arg(reinterpret_cast<quintptr>(h)));
+                    return FALSE;
+                }
+                return TRUE;
+            }, reinterpret_cast<LPARAM>(&pidData));
+        }
     }
 
     if (!hwnd) return false;
 
     m_scrcpyHwnd = reinterpret_cast<quintptr>(hwnd);
+    core::logger::Logger::instance()->info("ScrcpyController", tr("Found scrcpy window, embedding..."));
 
     // Set parent to our container
     SetParent(hwnd, (HWND)m_containerHwnd);
 
-    // Remove borders and caption
+    // Remove borders and caption from the scrcpy window
     LONG style = GetWindowLong(hwnd, GWL_STYLE);
     style &= ~(WS_CAPTION | WS_THICKFRAME | WS_SYSMENU | WS_MAXIMIZEBOX | WS_MINIMIZEBOX);
-    style |= WS_CHILD | WS_CLIPCHILDREN;
+    style |= WS_CHILD | WS_CLIPSIBLINGS;
     SetWindowLong(hwnd, GWL_STYLE, style);
 
     LONG exStyle = GetWindowLong(hwnd, GWL_EXSTYLE);
     exStyle &= ~(WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE | WS_EX_WINDOWEDGE);
     SetWindowLong(hwnd, GWL_EXSTYLE, exStyle);
 
+    // Ensure the parent widget clips its painting around the embedded child window.
+    // Without WS_CLIPCHILDREN, Qt may paint over the native scrcpy window.
+    LONG parentStyle = GetWindowLong((HWND)m_containerHwnd, GWL_STYLE);
+    parentStyle |= WS_CLIPCHILDREN;
+    SetWindowLong((HWND)m_containerHwnd, GWL_STYLE, parentStyle);
+
     updateNativeGeometry();
     ShowWindow(hwnd, SW_SHOW);
     UpdateWindow(hwnd);
 
+    emit embedded();
     return true;
 }
 
