@@ -390,6 +390,8 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/AI_Mobile_Test_Studio_autogen/mocs_compilat
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimer.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
  E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsize.h \
  E:/Project/AI_Mobile_Test_Studio/core/scrcpy/scrcpycontroller.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qprocess.h \

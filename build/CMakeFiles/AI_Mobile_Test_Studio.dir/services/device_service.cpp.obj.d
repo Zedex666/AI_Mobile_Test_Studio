@@ -330,6 +330,11 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qobject.h \
  E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsize.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmargins.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h \
  E:/Project/AI_Mobile_Test_Studio/core/logger/logger.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDateTime \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdatetime.h \
@@ -346,7 +351,5 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/services/device_service.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qset.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qhash.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qvarlengtharray.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QDebug \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qdebug.h

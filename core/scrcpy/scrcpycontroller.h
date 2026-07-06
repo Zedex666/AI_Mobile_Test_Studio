@@ -22,7 +22,7 @@ public:
     void setScrcpyPath(const QString &path);
     void setDevice(const QString &deviceId);
 
-    bool start(int maxSize = 1080, int bitRate = 8000000, int maxFps = 60);
+    bool start(int maxSize = 1080, int maxFps = 60);
     void stop();
 
     // Window embedding (Windows only)
@@ -50,6 +50,7 @@ private:
     QWidget *m_embedContainer = nullptr;
     QTimer *m_embedTimer = nullptr;
     bool m_isRunning = false;
+    QString m_stderrBuffer;   // accumulates all stderr for error reporting
 
 #ifdef Q_OS_WIN
     quintptr m_scrcpyHwnd = 0;

@@ -211,5 +211,36 @@ bool AdbController::dumpsys(const QString &deviceId, const QString &service, QSt
     return process.exitCode() == 0;
 }
 
+QSize AdbController::screenSize(const QString &deviceId) const
+{
+    QString path = adbPath();
+    if (path.isEmpty()) return QSize();
+
+    QProcess process;
+    process.start(path, QStringList() << "-s" << deviceId << "shell" << "wm" << "size");
+    process.waitForFinished(3000);
+    QString output = QString::fromLocal8Bit(process.readAllStandardOutput()).trimmed();
+
+    // Parse "Physical size: 1080x2400" or "Override size: 1080x1920"
+    QRegularExpression re("(?:Physical|Override) size:\\s*(\\d+)x(\\d+)");
+    QRegularExpressionMatch match = re.match(output);
+    if (match.hasMatch()) {
+        return QSize(match.captured(1).toInt(), match.captured(2).toInt());
+    }
+    return QSize();
+}
+
+QString AdbController::deviceCharacteristics(const QString &deviceId) const
+{
+    QString path = adbPath();
+    if (path.isEmpty()) return QString();
+
+    QProcess process;
+    process.start(path, QStringList() << "-s" << deviceId << "shell"
+                  << "getprop" << "ro.build.characteristics");
+    process.waitForFinished(3000);
+    return QString::fromLocal8Bit(process.readAllStandardOutput()).trimmed();
+}
+
 } // namespace adb
 } // namespace core

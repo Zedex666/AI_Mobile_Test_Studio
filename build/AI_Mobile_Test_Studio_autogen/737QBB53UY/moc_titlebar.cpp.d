@@ -2,6 +2,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/737QBB53UY/
   E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/moc_predefs.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \

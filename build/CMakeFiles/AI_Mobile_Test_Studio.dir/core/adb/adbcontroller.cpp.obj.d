@@ -325,6 +325,11 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/core/adb/adbcontroller.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsize.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmargins.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h \
  E:/Project/AI_Mobile_Test_Studio/core/config/configmanager.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QJsonObject \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qjsonobject.h \
@@ -345,8 +350,6 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/core/adb/adbcontroller.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qcalendar.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlocale.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qvariant.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h \
- D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qobject.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qregularexpression.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qurl.h \

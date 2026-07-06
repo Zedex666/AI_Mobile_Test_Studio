@@ -12,6 +12,13 @@
 
 namespace services {
 
+enum class DeviceType {
+    Unknown = 0,
+    Phone,
+    Tablet,
+    Watch
+};
+
 struct DeviceInfo {
     QString id;
     QString name;
@@ -20,6 +27,10 @@ struct DeviceInfo {
     int batteryLevel = -1;
     bool isConnected = false;
     bool isEmulator = false;
+    // Screen info for adaptive frame shape
+    DeviceType deviceType = DeviceType::Unknown;
+    int screenWidth = 0;
+    int screenHeight = 0;
 };
 
 class DeviceService : public QObject

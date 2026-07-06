@@ -126,7 +126,7 @@ void DevicePanel::setupUI()
     phoneShadowWrapper->setGraphicsEffect(shadow);
 
     phoneFrameLayout->addWidget(m_phoneScreen);
-    wrapperLayout->addWidget(m_phoneFrame);
+    wrapperLayout->addWidget(m_phoneFrame, 0, Qt::AlignCenter);
     phoneLayout->addWidget(phoneShadowWrapper, 1);
 
     // Scrcpy embed container — m_phoneFrame has no graphics effect, safe for native embedding
@@ -228,11 +228,18 @@ void DevicePanel::setDeviceInfo(const services::DeviceInfo &info)
         m_deviceNameLabel->setText(tr("未选择设备"));
         updateStatusLabel(false);
         stopScrcpy();
+        // Reset to default phone frame shape
+        m_deviceType = services::DeviceType::Phone;
+        m_targetAspectRatio = 0.45;
+        updateFrameShape();
         return;
     }
 
     m_deviceNameLabel->setText(info.name);
     updateStatusLabel(info.isConnected);
+
+    // Apply device-type-specific frame shape (phone/tablet/watch)
+    applyDeviceShape(info);
 
     // Auto-start scrcpy if connected and not already running
     if (info.isConnected && !isScrcpyRunning()) {
@@ -292,8 +299,146 @@ void DevicePanel::updateStatusLabel(bool connected)
     }
 }
 
+void DevicePanel::applyDeviceShape(const services::DeviceInfo &info)
+{
+    m_deviceType = info.deviceType;
+    m_currentInfo.deviceType = info.deviceType;
+    m_currentInfo.screenWidth = info.screenWidth;
+    m_currentInfo.screenHeight = info.screenHeight;
+
+    // Calculate target aspect ratio (width / height) based on device type
+    // This determines the frame shape — phone=tall, tablet=wide, watch=square
+    if (info.screenWidth > 0 && info.screenHeight > 0) {
+        // Use actual device screen aspect ratio for best fit
+        m_targetAspectRatio = static_cast<double>(info.screenWidth) / info.screenHeight;
+    } else {
+        // Fallback: default aspect ratios by device type
+        switch (info.deviceType) {
+        case services::DeviceType::Watch:
+            m_targetAspectRatio = 1.0;   // square (e.g. 390x390)
+            break;
+        case services::DeviceType::Tablet:
+            m_targetAspectRatio = 1.33;  // wider frame, ~4:3 (e.g. 2560x1600 → W/H=1.6, use 1.33)
+            break;
+        case services::DeviceType::Phone:
+        default:
+            m_targetAspectRatio = 0.45;  // tall (~9:20, e.g. 1080x2400)
+            break;
+        }
+    }
+
+    updateFrameShape();
+    core::logger::Logger::instance()->info("DevicePanel",
+        tr("Device shape applied: type=%1 aspect=%2").arg(static_cast<int>(m_deviceType)).arg(m_targetAspectRatio));
+}
+
+void DevicePanel::updateFrameShape()
+{
+    if (!m_phoneFrame) return;
+
+    // Build device-specific stylesheet for the phone bezel frame
+    QString frameStyle;
+    int maxWidth;
+
+    switch (m_deviceType) {
+    case services::DeviceType::Watch:
+        // Small, highly rounded (nearly circular) for watches
+        maxWidth = 280;
+        frameStyle = R"(
+            QFrame {
+                background-color: #1F2937;
+                border-radius: 50px;
+                border: 4px solid #374151;
+            }
+        )";
+        break;
+    case services::DeviceType::Tablet:
+        // Wider, less rounded for tablets
+        maxWidth = 700;
+        frameStyle = R"(
+            QFrame {
+                background-color: #1F2937;
+                border-radius: 18px;
+                border: 4px solid #374151;
+            }
+        )";
+        break;
+    case services::DeviceType::Phone:
+    default:
+        // Tall, moderately rounded for phones
+        maxWidth = 340;
+        frameStyle = R"(
+            QFrame {
+                background-color: #1F2937;
+                border-radius: 28px;
+                border: 3px solid #374151;
+            }
+        )";
+        break;
+    }
+
+    m_phoneFrame->setMaximumWidth(maxWidth);
+    m_phoneFrame->setStyleSheet(frameStyle);
+
+    // Set min/max dimensions directly on the phone frame.
+    // The max height will be updated dynamically in resizeEvent().
+    int minW, minH;
+    switch (m_deviceType) {
+    case services::DeviceType::Watch:
+        minW = 180; minH = 200; break;
+    case services::DeviceType::Tablet:
+        minW = 380; minH = 280; break;
+    case services::DeviceType::Phone:
+    default:
+        minW = 260; minH = 400; break;
+    }
+    m_phoneFrame->setMinimumSize(minW, minH);
+
+    // Adjust inner screen placeholder size and border-radius to match device type
+    if (m_phoneScreen) {
+        int innerRadius = (m_deviceType == services::DeviceType::Watch) ? 46
+                        : (m_deviceType == services::DeviceType::Tablet) ? 14
+                        : 22;
+        int scrMinW = (m_deviceType == services::DeviceType::Watch) ? 180
+                    : (m_deviceType == services::DeviceType::Tablet) ? 380
+                    : 260;
+        int scrMinH = (m_deviceType == services::DeviceType::Watch) ? 180
+                    : (m_deviceType == services::DeviceType::Tablet) ? 260
+                    : 400;
+        m_phoneScreen->setMinimumSize(scrMinW, scrMinH);
+        m_phoneScreen->setStyleSheet(QString(R"(
+            background-color: #111827;
+            border-radius: %1px;
+            color: #6B7280;
+            font-size: 14px;
+        )").arg(innerRadius));
+    }
+
+    // Notify scrcpy to re-fit after shape change
+    m_scrcpy->updateEmbedGeometry();
+}
+
 void DevicePanel::resizeEvent(QResizeEvent *event)
 {
     QWidget::resizeEvent(event);
+
+    // Keep the phone frame within the wrapper's bounds.
+    // The maximum height is capped at the wrapper height so the bottom
+    // panel (Log/Terminal/Results, 180px) remains visible.
+    // The frame's minimum height ensures it doesn't collapse.
+    // Scrcpy renders the device content at its native aspect ratio inside
+    // the frame — letterboxing (black bars) may appear if aspect ratios differ,
+    // which is normal and expected behavior (like a video player).
+    if (m_phoneFrame) {
+        QWidget *wrapper = m_phoneFrame->parentWidget();
+        if (wrapper && wrapper->height() > 0) {
+            int minHeight = (m_deviceType == services::DeviceType::Watch) ? 240
+                          : (m_deviceType == services::DeviceType::Tablet) ? 350
+                          : 450;
+            m_phoneFrame->setMinimumHeight(minHeight);
+            m_phoneFrame->setMaximumHeight(wrapper->height());
+        }
+    }
+
     m_scrcpy->updateEmbedGeometry();
 }

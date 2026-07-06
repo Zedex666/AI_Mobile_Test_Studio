@@ -3,6 +3,7 @@ E:/Project/AI_Mobile_Test_Studio/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/AI_Mo
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \

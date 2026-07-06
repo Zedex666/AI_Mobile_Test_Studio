@@ -5,6 +5,7 @@
 #include <QString>
 #include <QStringList>
 #include <QMap>
+#include <QSize>
 
 namespace core {
 namespace adb {
@@ -41,6 +42,10 @@ public:
     bool logcat(const QString &deviceId, QString *output) const;
     bool uiautomatorDump(const QString &deviceId, QString *xmlOutput) const;
     bool dumpsys(const QString &deviceId, const QString &service, QString *output) const;
+
+    // Device screen info for adaptive frame (phone/tablet/watch)
+    QSize screenSize(const QString &deviceId) const;
+    QString deviceCharacteristics(const QString &deviceId) const;
 
 signals:
     void deviceConnected(const QString &deviceId);

@@ -384,6 +384,8 @@ CMakeFiles/AI_Mobile_Test_Studio.dir/app/widgets/titlebar.cpp.obj: \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qtimer.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qbasictimer.h \
  E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize \
+ D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsize.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/QHBoxLayout \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qboxlayout.h \
  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtWidgets/qlayout.h \

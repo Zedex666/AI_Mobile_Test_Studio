@@ -2843,3 +2843,1841 @@
 [2026-07-06 08:52:12.185] [INFO] [DeviceService] refreshDevices: adbAvailable=1
 [2026-07-06 08:52:12.631] [INFO] [DeviceService] updateDevices: found 1 device(s)
 [2026-07-06 08:52:12.631] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:15.186] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:15.641] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:15.642] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:18.179] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:18.663] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:18.665] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:21.178] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:21.605] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:21.607] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:24.181] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:24.629] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:24.629] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:27.186] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:27.622] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:27.622] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:30.186] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:30.615] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:30.616] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:33.185] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:33.622] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:33.623] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:36.175] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:36.599] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:36.599] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:39.192] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:39.638] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:39.639] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:42.180] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:42.613] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:42.614] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:45.173] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:45.635] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:45.636] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:48.178] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:48.616] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:48.616] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:51.180] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:51.591] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:51.592] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:54.202] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:54.631] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:54.632] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:52:57.174] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:52:57.591] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:52:57.591] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:00.172] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:00.613] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:00.614] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:03.178] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:03.607] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:03.608] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:06.177] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:06.568] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:06.569] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:09.181] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:09.605] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:09.606] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:12.176] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:12.597] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:12.598] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:15.186] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:15.618] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:15.619] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:18.175] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:18.617] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:18.618] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:21.182] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:21.608] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:21.609] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:24.179] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:24.595] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:24.596] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:27.172] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:27.592] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:27.593] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:30.178] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:30.600] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:30.600] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:33.187] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:33.609] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:33.609] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:36.174] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:36.584] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:36.585] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:39.183] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:39.607] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:39.610] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:42.178] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:42.597] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:42.598] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:45.187] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:45.622] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:45.623] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:48.179] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:48.588] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:48.589] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:51.182] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:51.611] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:51.613] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:54.174] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:54.600] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:54.601] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:53:57.178] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:53:57.593] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:53:57.593] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:00.179] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:00.583] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:00.584] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:03.176] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:03.592] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:03.593] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:06.176] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:06.589] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:06.589] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:09.176] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:09.604] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:09.605] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:12.189] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:12.618] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:12.619] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:15.176] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:15.590] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:15.591] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:18.173] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:18.582] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:18.583] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:21.185] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:21.620] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:21.621] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:24.178] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:24.582] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:24.582] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:27.171] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:27.574] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:27.575] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:30.179] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:30.598] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:30.599] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:33.173] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:33.602] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:33.603] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:36.179] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:36.610] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:36.611] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:39.181] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:39.576] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:39.577] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:42.176] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:42.584] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:42.585] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:45.171] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:45.575] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:45.575] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:48.186] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:48.614] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:48.615] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:51.179] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:51.604] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:51.606] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:54.184] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:54.599] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:54.601] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:54:57.186] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:54:57.639] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:54:57.640] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:00.173] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:00.583] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:00.585] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:03.185] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:03.621] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:03.621] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:06.186] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:06.582] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:06.584] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:09.177] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:09.591] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:09.592] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:12.186] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:12.597] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:12.598] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:15.194] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:15.607] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:15.608] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:18.197] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:18.629] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:18.631] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:21.193] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:21.621] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:21.622] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:24.192] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:24.600] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:24.600] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:27.188] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:27.607] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:27.608] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:30.199] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:30.609] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:30.611] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:33.191] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:33.605] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:33.606] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:36.198] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:36.601] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:36.602] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:39.196] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:39.607] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:39.608] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:42.191] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:42.839] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:42.840] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:45.200] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:45.636] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:45.637] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 08:55:48.194] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 08:55:48.600] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 08:55:48.601] [INFO] [DeviceService] Device 459c8df8 status=device connected=1
+[2026-07-06 09:03:25.311] [INFO] [ADB] ADB available at: D:/myApp_666666666666666/platform-tools/adb.exe
+[2026-07-06 09:03:25.312] [INFO] [Device] Started device polling every 3000 ms
+[2026-07-06 09:03:25.344] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:25.750] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:25.925] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:25.925] [INFO] [Device] Device connected: diting (15)
+[2026-07-06 09:03:25.925] [INFO] [DevicePanel] setDeviceInfo id=459c8df8 connected=1 running=0
+[2026-07-06 09:03:25.926] [INFO] [DevicePanel] Device shape applied: type=1 aspect=0.449853
+[2026-07-06 09:03:25.926] [INFO] [DevicePanel] Auto-starting scrcpy for 459c8df8
+[2026-07-06 09:03:25.927] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:03:25.927] [INFO] [ScrcpyController] start() called, running=0
+[2026-07-06 09:03:25.927] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:03:25.927] [INFO] [ScrcpyController] scrcpy binary: D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe
+[2026-07-06 09:03:25.928] [INFO] [ScrcpyController] scrcpy arg count: 9
+[2026-07-06 09:03:25.928] [INFO] [ScrcpyController] scrcpy arg[0]: "--serial"
+[2026-07-06 09:03:25.928] [INFO] [ScrcpyController] scrcpy arg[1]: "459c8df8"
+[2026-07-06 09:03:25.928] [INFO] [ScrcpyController] scrcpy arg[2]: "--max-size"
+[2026-07-06 09:03:25.928] [INFO] [ScrcpyController] scrcpy arg[3]: "1080"
+[2026-07-06 09:03:25.929] [INFO] [ScrcpyController] scrcpy arg[4]: "--max-fps"
+[2026-07-06 09:03:25.929] [INFO] [ScrcpyController] scrcpy arg[5]: "60"
+[2026-07-06 09:03:25.929] [INFO] [ScrcpyController] scrcpy arg[6]: "--no-control"
+[2026-07-06 09:03:25.929] [INFO] [ScrcpyController] scrcpy arg[7]: "--window-title"
+[2026-07-06 09:03:25.929] [INFO] [ScrcpyController] scrcpy arg[8]: "AMTS_Scrcpy_459c8df8"
+[2026-07-06 09:03:25.933] [INFO] [ScrcpyController] waitForStarted SUCCESS
+[2026-07-06 09:03:25.933] [INFO] [Device] Current device changed to: 459c8df8
+[2026-07-06 09:03:25.933] [INFO] [MainWindow] Services initialized, device polling started
+[2026-07-06 09:03:26.070] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.072] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.072] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.073] [INFO] [ScrcpyController] scrcpy stdout: scrcpy 4.0 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     -->   (usb)  459c8df8                        device  22081212C
+[2026-07-06 09:03:26.139] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.139] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.141] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.142] [INFO] [ScrcpyController] scrcpy stderr: D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 26.4 MB/s (732226 bytes in 0.026s)
+[2026-07-06 09:03:26.156] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.157] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.157] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.215] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.216] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.218] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.281] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.282] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.282] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.284] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.285] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.287] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.349] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.349] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.351] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.353] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.354] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.355] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.394] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.395] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.395] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.434] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.436] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.436] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.476] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.476] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.478] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.515] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.515] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.517] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.557] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.557] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.559] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.599] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.601] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.601] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.604] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.605] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.605] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.643] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.644] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.646] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.654] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.654] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.654] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.663] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.664] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.664] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.674] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.674] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.675] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.684] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.684] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.686] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.694] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.694] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.695] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.703] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.704] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.704] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.714] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.714] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.715] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.724] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.724] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.725] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.734] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.734] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.736] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.744] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.744] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.745] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.754] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.754] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.756] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.764] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.764] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.765] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.773] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.773] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.773] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.784] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.784] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.785] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.794] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.794] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.796] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.804] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.804] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.805] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.814] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.814] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.816] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.823] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.823] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.825] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.834] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.834] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.834] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.844] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.844] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.845] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.853] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.853] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.854] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.863] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.863] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.863] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.871] [INFO] [ScrcpyController] scrcpy stdout: [server] INFO: Device: [Xiaomi] Redmi 22081212C (Android 15)
+[2026-07-06 09:03:26.874] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.876] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.876] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.883] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.883] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.883] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.894] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.894] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.896] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.903] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.904] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.904] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.914] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.914] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.915] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.924] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.924] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.926] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.933] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.933] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.935] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.944] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.944] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.944] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.954] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.954] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.954] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.964] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.964] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.966] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.973] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.973] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.973] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.984] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.984] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.985] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:26.994] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:26.994] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:26.996] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:27.003] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:27.003] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:27.004] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:27.013] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:27.014] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:27.015] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:27.023] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:27.023] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:27.024] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:27.034] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:27.035] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:27.036] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=527482
+[2026-07-06 09:03:27.036] [INFO] [ScrcpyController] Found scrcpy window, embedding...
+[2026-07-06 09:03:27.262] [INFO] [ScrcpyController] scrcpy stdout: INFO: Renderer: direct3d11
+[2026-07-06 09:03:27.366] [INFO] [ScrcpyController] scrcpy stdout: INFO: Texture: 484x1080
+[2026-07-06 09:03:28.327] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:28.698] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:28.855] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:31.603] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:31.952] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:32.103] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:34.336] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:34.662] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:34.766] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:37.332] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:37.721] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:37.853] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:40.334] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:40.709] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:40.842] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:43.326] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:43.694] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:43.847] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:46.341] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:46.703] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:46.848] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:49.341] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:49.701] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:49.841] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:52.124] [INFO] [MainWindow] DevicePanel refresh clicked
+[2026-07-06 09:03:52.156] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:52.538] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:52.716] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:55.727] [INFO] [DevicePanel] setDeviceInfo id=459c8df8 connected=1 running=0
+[2026-07-06 09:03:55.728] [INFO] [DevicePanel] Device shape applied: type=1 aspect=0.449853
+[2026-07-06 09:03:55.728] [INFO] [DevicePanel] Auto-starting scrcpy for 459c8df8
+[2026-07-06 09:03:55.730] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:03:55.730] [INFO] [ScrcpyController] start() called, running=0
+[2026-07-06 09:03:55.731] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:03:55.732] [INFO] [ScrcpyController] scrcpy binary: D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe
+[2026-07-06 09:03:55.732] [INFO] [ScrcpyController] scrcpy arg count: 9
+[2026-07-06 09:03:55.732] [INFO] [ScrcpyController] scrcpy arg[0]: "--serial"
+[2026-07-06 09:03:55.733] [INFO] [ScrcpyController] scrcpy arg[1]: "459c8df8"
+[2026-07-06 09:03:55.733] [INFO] [ScrcpyController] scrcpy arg[2]: "--max-size"
+[2026-07-06 09:03:55.733] [INFO] [ScrcpyController] scrcpy arg[3]: "1080"
+[2026-07-06 09:03:55.734] [INFO] [ScrcpyController] scrcpy arg[4]: "--max-fps"
+[2026-07-06 09:03:55.735] [INFO] [ScrcpyController] scrcpy arg[5]: "60"
+[2026-07-06 09:03:55.735] [INFO] [ScrcpyController] scrcpy arg[6]: "--no-control"
+[2026-07-06 09:03:55.736] [INFO] [ScrcpyController] scrcpy arg[7]: "--window-title"
+[2026-07-06 09:03:55.736] [INFO] [ScrcpyController] scrcpy arg[8]: "AMTS_Scrcpy_459c8df8"
+[2026-07-06 09:03:55.738] [INFO] [ScrcpyController] waitForStarted SUCCESS
+[2026-07-06 09:03:55.788] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:56.228] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:56.419] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:03:56.421] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:03:56.421] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:03:56.422] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:03:56.423] [INFO] [ScrcpyController] scrcpy process exited: code=62097 status=crash
+[2026-07-06 09:03:56.424] [ERROR] [ScrcpyController] scrcpy exited with code 62097. Full stderr:
+(no stderr output captured)
+[2026-07-06 09:03:58.330] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:03:58.674] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:03:58.815] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:01.329] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:01.622] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:01.744] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:04.330] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:04.662] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:04.809] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:05.977] [INFO] [MainWindow] DevicePanel refresh clicked
+[2026-07-06 09:04:06.011] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:06.359] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:06.503] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:06.504] [INFO] [DevicePanel] setDeviceInfo id=459c8df8 connected=1 running=0
+[2026-07-06 09:04:06.505] [INFO] [DevicePanel] Device shape applied: type=1 aspect=0.449853
+[2026-07-06 09:04:06.506] [INFO] [DevicePanel] Auto-starting scrcpy for 459c8df8
+[2026-07-06 09:04:06.506] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:04:06.507] [INFO] [ScrcpyController] start() called, running=0
+[2026-07-06 09:04:06.508] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:04:06.508] [INFO] [ScrcpyController] scrcpy binary: D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe
+[2026-07-06 09:04:06.509] [INFO] [ScrcpyController] scrcpy arg count: 9
+[2026-07-06 09:04:06.509] [INFO] [ScrcpyController] scrcpy arg[0]: "--serial"
+[2026-07-06 09:04:06.510] [INFO] [ScrcpyController] scrcpy arg[1]: "459c8df8"
+[2026-07-06 09:04:06.510] [INFO] [ScrcpyController] scrcpy arg[2]: "--max-size"
+[2026-07-06 09:04:06.511] [INFO] [ScrcpyController] scrcpy arg[3]: "1080"
+[2026-07-06 09:04:06.511] [INFO] [ScrcpyController] scrcpy arg[4]: "--max-fps"
+[2026-07-06 09:04:06.512] [INFO] [ScrcpyController] scrcpy arg[5]: "60"
+[2026-07-06 09:04:06.513] [INFO] [ScrcpyController] scrcpy arg[6]: "--no-control"
+[2026-07-06 09:04:06.513] [INFO] [ScrcpyController] scrcpy arg[7]: "--window-title"
+[2026-07-06 09:04:06.514] [INFO] [ScrcpyController] scrcpy arg[8]: "AMTS_Scrcpy_459c8df8"
+[2026-07-06 09:04:06.516] [INFO] [ScrcpyController] waitForStarted SUCCESS
+[2026-07-06 09:04:06.531] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.532] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.532] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.547] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.548] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.549] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.550] [INFO] [ScrcpyController] scrcpy stdout: scrcpy 4.0 <https://github.com/Genymobile/scrcpy>
+[2026-07-06 09:04:06.557] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.558] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.559] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.567] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.569] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.570] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.577] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.578] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.579] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.587] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.587] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.589] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.595] [INFO] [ScrcpyController] scrcpy stdout: INFO: ADB device found:
+INFO:     -->   (usb)  459c8df8                        device  22081212C
+[2026-07-06 09:04:06.598] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.599] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.599] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.607] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.607] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.609] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.618] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.620] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.620] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.627] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.627] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.629] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.637] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.637] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.637] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.647] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.647] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.649] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.650] [INFO] [ScrcpyController] scrcpy stderr: D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 29.2 MB/s (732226 bytes in 0.024s)
+[2026-07-06 09:04:06.658] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.659] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.659] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.668] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.668] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.670] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.677] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.677] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.679] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.687] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.687] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.688] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.698] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.698] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.699] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.707] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.707] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.709] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.718] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.718] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.720] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.727] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.728] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.728] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.738] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.738] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.739] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.747] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.747] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.747] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.758] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.759] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.759] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.767] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.767] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.769] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.778] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.778] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.779] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.787] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.787] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.788] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.798] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.798] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.799] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.807] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.808] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.808] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.817] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.817] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.819] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.827] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.827] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.828] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.837] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.837] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.839] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.847] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.847] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.848] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.858] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.858] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.859] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.868] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.868] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.870] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.877] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.877] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.879] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.888] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.888] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.889] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.898] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.898] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.899] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.907] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.907] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.908] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.917] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.918] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.918] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.927] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.927] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.929] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.938] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.938] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.940] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.947] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.947] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.948] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.958] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.958] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.959] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.968] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.968] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.969] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.977] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.977] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.978] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.987] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.987] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.987] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:06.997] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:06.997] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:06.999] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.001] [INFO] [ScrcpyController] scrcpy stdout: [server] INFO: Device: [Xiaomi] Redmi 22081212C (Android 15)
+[2026-07-06 09:04:07.008] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.008] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.009] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.017] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.017] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.019] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.027] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.028] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.029] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.038] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.038] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.038] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.047] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.047] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.049] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.057] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.058] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.058] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.067] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.067] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.068] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.077] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.077] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.079] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:04:07.087] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:04:07.088] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:04:07.089] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=787018
+[2026-07-06 09:04:07.089] [INFO] [ScrcpyController] Found scrcpy window, embedding...
+[2026-07-06 09:04:07.295] [INFO] [ScrcpyController] scrcpy stdout: INFO: Renderer: direct3d11
+[2026-07-06 09:04:07.346] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:07.710] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:07.847] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:07.848] [INFO] [ScrcpyController] scrcpy stdout: INFO: Texture: 484x1080
+[2026-07-06 09:04:10.329] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:10.652] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:10.782] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:13.330] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:13.695] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:13.824] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:16.336] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:16.669] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:16.809] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:19.572] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:19.914] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:20.040] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:22.326] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:22.701] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:22.840] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:25.332] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:25.698] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:25.840] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:28.339] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:28.708] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:28.827] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:31.333] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:31.669] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:31.820] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:34.332] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:34.757] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:34.896] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:37.326] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:37.668] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:37.792] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:40.341] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:40.710] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:40.882] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:43.344] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:43.709] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:43.858] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:46.338] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:46.722] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:46.907] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:49.338] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:49.779] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:49.974] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:52.336] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:52.755] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:52.942] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:55.337] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:55.731] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:55.912] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:04:58.330] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:04:58.726] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:04:58.909] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:01.336] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:01.714] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:01.868] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:04.346] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:04.761] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:04.953] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:07.335] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:07.759] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:07.917] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:10.332] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:10.740] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:10.893] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:13.334] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:13.764] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:13.917] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:16.340] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:16.742] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:16.909] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:19.337] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:19.776] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:19.929] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:22.333] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:22.740] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:22.927] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:25.341] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:25.788] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:25.966] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:28.333] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:05:28.756] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:05:28.974] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:05:33.938] [INFO] [ScrcpyController] scrcpy process exited: code=62097 status=crash
+[2026-07-06 09:05:33.940] [ERROR] [ScrcpyController] scrcpy exited with code 62097. Full stderr:
+D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 29.2 MB/s (732226 bytes in 0.024s)
+[2026-07-06 09:10:46.743] [INFO] [ADB] ADB available at: D:/myApp_666666666666666/platform-tools/adb.exe
+[2026-07-06 09:10:46.744] [INFO] [Device] Started device polling every 3000 ms
+[2026-07-06 09:10:46.774] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:10:47.161] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:10:47.314] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:10:47.314] [INFO] [Device] Device connected: diting (15)
+[2026-07-06 09:10:47.314] [INFO] [DevicePanel] setDeviceInfo id=459c8df8 connected=1 running=0
+[2026-07-06 09:10:47.315] [INFO] [DevicePanel] Device shape applied: type=1 aspect=0.449853
+[2026-07-06 09:10:47.315] [INFO] [DevicePanel] Auto-starting scrcpy for 459c8df8
+[2026-07-06 09:10:47.315] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:10:47.316] [INFO] [ScrcpyController] start() called, running=0
+[2026-07-06 09:10:47.316] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:10:47.316] [INFO] [ScrcpyController] scrcpy binary: D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe
+[2026-07-06 09:10:47.316] [INFO] [ScrcpyController] scrcpy arg count: 9
+[2026-07-06 09:10:47.316] [INFO] [ScrcpyController] scrcpy arg[0]: "--serial"
+[2026-07-06 09:10:47.317] [INFO] [ScrcpyController] scrcpy arg[1]: "459c8df8"
+[2026-07-06 09:10:47.317] [INFO] [ScrcpyController] scrcpy arg[2]: "--max-size"
+[2026-07-06 09:10:47.317] [INFO] [ScrcpyController] scrcpy arg[3]: "1080"
+[2026-07-06 09:10:47.318] [INFO] [ScrcpyController] scrcpy arg[4]: "--max-fps"
+[2026-07-06 09:10:47.318] [INFO] [ScrcpyController] scrcpy arg[5]: "60"
+[2026-07-06 09:10:47.318] [INFO] [ScrcpyController] scrcpy arg[6]: "--no-control"
+[2026-07-06 09:10:47.318] [INFO] [ScrcpyController] scrcpy arg[7]: "--window-title"
+[2026-07-06 09:10:47.318] [INFO] [ScrcpyController] scrcpy arg[8]: "AMTS_Scrcpy_459c8df8"
+[2026-07-06 09:10:47.321] [INFO] [ScrcpyController] waitForStarted SUCCESS
+[2026-07-06 09:10:47.322] [INFO] [Device] Current device changed to: 459c8df8
+[2026-07-06 09:10:47.322] [INFO] [MainWindow] Services initialized, device polling started
+[2026-07-06 09:10:47.444] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.444] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.445] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.445] [INFO] [ScrcpyController] scrcpy stdout: scrcpy 4.0 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     -->   (usb)  459c8df8                        device  22081212C
+[2026-07-06 09:10:47.522] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.522] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.522] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.523] [INFO] [ScrcpyController] scrcpy stderr: D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 30.5 MB/s (732226 bytes in 0.023s)
+[2026-07-06 09:10:47.531] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.531] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.531] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.542] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.542] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.542] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.551] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.551] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.553] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.562] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.562] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.562] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.571] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.572] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.573] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.582] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.582] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.582] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.591] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.591] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.591] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.602] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.602] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.603] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.611] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.611] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.612] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.621] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.622] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.622] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.631] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.631] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.631] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.642] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.642] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.644] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.651] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.651] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.653] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.662] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.662] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.664] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.671] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.671] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.671] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.682] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.682] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.682] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.692] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.692] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.693] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.701] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.701] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.701] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.712] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.713] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.713] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.721] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.721] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.721] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.732] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.732] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.732] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.741] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.741] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.742] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.751] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.751] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.751] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.762] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.762] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.764] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.771] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.771] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.773] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.781] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.781] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.781] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.792] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.792] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.793] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.799] [INFO] [ScrcpyController] scrcpy stdout: [server] INFO: Device: [Xiaomi] Redmi 22081212C (Android 15)
+[2026-07-06 09:10:47.801] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.801] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.802] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.812] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.812] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.812] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.821] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.821] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.823] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.831] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.831] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.832] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.842] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.842] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.843] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.851] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.851] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.851] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.861] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.861] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.863] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.872] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.872] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.874] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:10:47.881] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:10:47.882] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:10:47.883] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=855252
+[2026-07-06 09:10:47.883] [INFO] [ScrcpyController] Found scrcpy window, embedding...
+[2026-07-06 09:10:48.083] [INFO] [ScrcpyController] scrcpy stdout: INFO: Renderer: direct3d11
+[2026-07-06 09:10:48.095] [INFO] [ScrcpyController] scrcpy stdout: INFO: Texture: 484x1080
+[2026-07-06 09:10:49.778] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:10:50.165] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:10:50.319] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:10:52.779] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:10:53.152] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:10:53.283] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:10:55.776] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:10:56.123] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:10:56.262] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:10:58.003] [INFO] [ScrcpyController] scrcpy stderr: WARN: Device disconnected
+[2026-07-06 09:10:58.773] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:10:58.804] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:10:58.805] [INFO] [Device] Device disconnected: 459c8df8
+[2026-07-06 09:10:58.805] [INFO] [DevicePanel] setDeviceInfo id= connected=0 running=1
+[2026-07-06 09:11:00.038] [INFO] [ScrcpyController] scrcpy process exited: code=2 status=normal
+[2026-07-06 09:11:00.038] [ERROR] [ScrcpyController] scrcpy exited with code 2. Full stderr:
+D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 30.5 MB/s (732226 bytes in 0.023s)
+WARN: Device disconnected
+[2026-07-06 09:11:00.041] [INFO] [Device] Current device changed to: 
+[2026-07-06 09:11:01.789] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:01.821] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:11:04.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:04.801] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:11:07.779] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:08.115] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:08.245] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:08.246] [INFO] [Device] Device connected: diting (15)
+[2026-07-06 09:11:08.246] [INFO] [DevicePanel] setDeviceInfo id=459c8df8 connected=1 running=0
+[2026-07-06 09:11:08.247] [INFO] [DevicePanel] Device shape applied: type=1 aspect=0.449853
+[2026-07-06 09:11:08.247] [INFO] [DevicePanel] Auto-starting scrcpy for 459c8df8
+[2026-07-06 09:11:08.248] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:11:08.248] [INFO] [ScrcpyController] start() called, running=0
+[2026-07-06 09:11:08.249] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:11:08.249] [INFO] [ScrcpyController] scrcpy binary: D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe
+[2026-07-06 09:11:08.250] [INFO] [ScrcpyController] scrcpy arg count: 9
+[2026-07-06 09:11:08.250] [INFO] [ScrcpyController] scrcpy arg[0]: "--serial"
+[2026-07-06 09:11:08.250] [INFO] [ScrcpyController] scrcpy arg[1]: "459c8df8"
+[2026-07-06 09:11:08.251] [INFO] [ScrcpyController] scrcpy arg[2]: "--max-size"
+[2026-07-06 09:11:08.251] [INFO] [ScrcpyController] scrcpy arg[3]: "1080"
+[2026-07-06 09:11:08.252] [INFO] [ScrcpyController] scrcpy arg[4]: "--max-fps"
+[2026-07-06 09:11:08.252] [INFO] [ScrcpyController] scrcpy arg[5]: "60"
+[2026-07-06 09:11:08.252] [INFO] [ScrcpyController] scrcpy arg[6]: "--no-control"
+[2026-07-06 09:11:08.253] [INFO] [ScrcpyController] scrcpy arg[7]: "--window-title"
+[2026-07-06 09:11:08.253] [INFO] [ScrcpyController] scrcpy arg[8]: "AMTS_Scrcpy_459c8df8"
+[2026-07-06 09:11:08.256] [INFO] [ScrcpyController] waitForStarted SUCCESS
+[2026-07-06 09:11:08.256] [INFO] [Device] Current device changed to: 459c8df8
+[2026-07-06 09:11:08.270] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.270] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.271] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.276] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.276] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.278] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.279] [INFO] [ScrcpyController] scrcpy stdout: scrcpy 4.0 <https://github.com/Genymobile/scrcpy>
+[2026-07-06 09:11:08.287] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.288] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.288] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.297] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.298] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.298] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.306] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.307] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.307] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.317] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.318] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.318] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.327] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.327] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.329] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.330] [INFO] [ScrcpyController] scrcpy stdout: INFO: ADB device found:
+INFO:     -->   (usb)  459c8df8                        device  22081212C
+[2026-07-06 09:11:08.336] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.337] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.338] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.347] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.347] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.349] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.357] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.358] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.358] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.367] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.367] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.369] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.376] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.376] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.378] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.379] [INFO] [ScrcpyController] scrcpy stderr: D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 30.8 MB/s (732226 bytes in 0.023s)
+[2026-07-06 09:11:08.387] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.387] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.389] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.396] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.397] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.398] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.407] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.407] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.409] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.417] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.417] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.418] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.426] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.428] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.428] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.437] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.437] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.439] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.446] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.446] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.447] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.457] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.457] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.457] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.467] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.467] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.467] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.477] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.478] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.478] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.487] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.487] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.488] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.498] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.498] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.499] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.508] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.509] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.509] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.517] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.517] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.517] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.527] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.528] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.529] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.537] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.537] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.537] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.547] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.548] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.548] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.557] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.557] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.557] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.567] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.568] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.568] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.577] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.577] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.577] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.587] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.587] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.588] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.597] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.597] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.597] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.607] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.608] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.608] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.617] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.617] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.617] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.626] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.626] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.627] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.637] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.637] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.637] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.647] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.647] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.647] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.657] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.658] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.658] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.666] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.666] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.667] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.678] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.678] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.680] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.686] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.686] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.687] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.697] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.697] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.697] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.707] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.707] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.707] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.717] [INFO] [ScrcpyController] scrcpy stdout: [server] INFO: Device: [Xiaomi] Redmi 22081212C (Android 15)
+[2026-07-06 09:11:08.718] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.718] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.719] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.727] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.727] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.727] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.737] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.738] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.738] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.747] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.747] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.747] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.757] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.757] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.759] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.767] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.767] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.767] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.777] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.778] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.778] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.787] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.789] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.789] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.796] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:11:08.797] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:11:08.798] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:11:08.807] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=658528
+[2026-07-06 09:11:08.807] [INFO] [ScrcpyController] Found scrcpy window, embedding...
+[2026-07-06 09:11:09.004] [INFO] [ScrcpyController] scrcpy stdout: INFO: Renderer: direct3d11
+[2026-07-06 09:11:09.017] [INFO] [ScrcpyController] scrcpy stdout: INFO: Texture: 484x1080
+[2026-07-06 09:11:10.766] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:11.111] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:11.236] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:13.764] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:14.107] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:14.252] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:16.766] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:17.121] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:17.268] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:19.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:20.132] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:20.276] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:22.768] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:23.151] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:23.323] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:25.765] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:26.141] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:26.302] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:28.767] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:29.152] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:29.332] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:31.771] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:32.177] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:32.374] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:34.767] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:35.183] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:35.371] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:37.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:38.159] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:38.311] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:40.769] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:41.166] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:41.320] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:43.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:44.144] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:44.297] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:46.766] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:47.170] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:47.356] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:49.767] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:50.192] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:50.392] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:52.785] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:53.232] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:53.395] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:55.795] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:56.179] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:56.335] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:11:58.773] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:11:59.195] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:11:59.348] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:01.771] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:02.122] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:02.266] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:04.769] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:05.133] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:05.277] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:07.785] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:08.178] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:08.332] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:10.780] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:11.147] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:11.292] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:13.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:14.176] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:14.347] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:16.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:17.171] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:17.354] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:19.766] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:20.172] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:20.362] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:22.769] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:23.173] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:23.352] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:25.779] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:26.189] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:26.378] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:28.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:29.167] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:29.352] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:31.781] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:32.215] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:32.423] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:34.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:35.186] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:35.367] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:37.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:38.175] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:38.360] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:40.777] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:41.171] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:41.369] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:43.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:44.163] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:44.342] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:46.767] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:47.201] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:47.355] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:49.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:50.178] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:50.374] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:52.787] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:53.265] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:53.439] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:55.790] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:56.169] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:56.315] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:12:58.779] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:12:59.145] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:12:59.303] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:01.765] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:02.155] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:02.310] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:04.771] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:05.146] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:05.308] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:07.787] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:08.168] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:08.332] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:10.784] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:11.181] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:11.331] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:13.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:14.191] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:14.380] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:16.781] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:17.107] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:17.240] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:19.777] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:20.180] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:20.347] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:22.768] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:23.190] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:23.385] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:25.786] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:26.205] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:26.407] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:28.779] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:29.193] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:29.370] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:31.765] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:32.191] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:32.365] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:34.767] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:35.129] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:35.271] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:37.778] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:38.133] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:38.285] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:40.780] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:41.174] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:41.298] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:43.781] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:44.164] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:44.310] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:46.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:47.161] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:47.316] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:49.780] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:50.193] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:50.379] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:52.774] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:53.233] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:53.432] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:55.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:56.197] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:56.395] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:13:58.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:13:59.184] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:13:59.372] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:01.773] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:02.224] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:02.407] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:04.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:05.200] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:05.395] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:07.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:08.193] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:08.378] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:10.779] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:11.184] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:11.383] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:13.767] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:14.193] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:14.375] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:16.782] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:17.264] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:17.451] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:19.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:20.208] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:20.391] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:22.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:23.201] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:23.387] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:25.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:26.209] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:26.407] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:28.769] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:29.200] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:29.379] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:31.768] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:32.191] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:32.377] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:34.771] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:35.200] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:35.385] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:37.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:38.225] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:38.411] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:40.783] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:41.182] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:41.336] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:43.780] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:44.190] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:44.344] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:46.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:47.212] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:47.369] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:49.776] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:50.223] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:50.411] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:52.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:53.213] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:53.403] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:55.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:56.192] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:56.371] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:14:58.781] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:14:59.232] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:14:59.419] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:01.780] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:02.207] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:02.360] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:04.783] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:05.198] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:05.383] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:07.782] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:08.190] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:08.378] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:10.779] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:11.200] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:11.350] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:13.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:14.195] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:14.393] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:16.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:17.169] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:17.352] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:19.771] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:20.177] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:20.360] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:22.777] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:23.182] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:23.339] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:25.771] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:26.193] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:26.378] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:28.767] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:29.182] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:29.338] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:31.768] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:32.191] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:32.374] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:34.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:35.173] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:35.352] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:37.771] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:38.178] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:38.359] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:40.780] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:41.199] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:41.379] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:43.777] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:44.180] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:44.359] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:46.777] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:47.184] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:47.367] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:49.769] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:50.192] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:50.374] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:52.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:53.184] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:53.369] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:55.778] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:56.188] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:56.359] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:15:58.776] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:15:59.177] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:15:59.358] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:01.765] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:02.162] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:02.347] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:04.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:05.215] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:05.404] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:07.777] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:08.208] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:08.404] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:10.781] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:11.184] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:11.369] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:13.778] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:14.190] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:14.377] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:16.782] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:17.210] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:17.383] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:19.776] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:20.192] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:20.391] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:22.775] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:23.200] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:23.385] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:25.772] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:26.161] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:26.356] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:28.776] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:29.168] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:29.320] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:31.776] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:32.208] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:32.404] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:34.770] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:35.167] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:35.353] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:37.780] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:38.177] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:38.361] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:40.790] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:41.218] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:41.415] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:44.446] [INFO] [ScrcpyController] scrcpy process exited: code=62097 status=crash
+[2026-07-06 09:16:44.448] [ERROR] [ScrcpyController] scrcpy exited with code 62097. Full stderr:
+D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 30.8 MB/s (732226 bytes in 0.023s)
+[2026-07-06 09:16:51.449] [INFO] [ADB] ADB available at: D:/myApp_666666666666666/platform-tools/adb.exe
+[2026-07-06 09:16:51.450] [INFO] [Device] Started device polling every 3000 ms
+[2026-07-06 09:16:51.480] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:51.871] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:52.056] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:52.056] [INFO] [Device] Device connected: diting (15)
+[2026-07-06 09:16:52.057] [INFO] [DevicePanel] setDeviceInfo id=459c8df8 connected=1 running=0
+[2026-07-06 09:16:52.057] [INFO] [DevicePanel] Device shape applied: type=1 aspect=0.449853
+[2026-07-06 09:16:52.057] [INFO] [DevicePanel] Auto-starting scrcpy for 459c8df8
+[2026-07-06 09:16:52.058] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:16:52.058] [INFO] [ScrcpyController] start() called, running=0
+[2026-07-06 09:16:52.058] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:16:52.058] [INFO] [ScrcpyController] scrcpy binary: D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe
+[2026-07-06 09:16:52.058] [INFO] [ScrcpyController] scrcpy arg count: 9
+[2026-07-06 09:16:52.059] [INFO] [ScrcpyController] scrcpy arg[0]: "--serial"
+[2026-07-06 09:16:52.059] [INFO] [ScrcpyController] scrcpy arg[1]: "459c8df8"
+[2026-07-06 09:16:52.059] [INFO] [ScrcpyController] scrcpy arg[2]: "--max-size"
+[2026-07-06 09:16:52.059] [INFO] [ScrcpyController] scrcpy arg[3]: "1080"
+[2026-07-06 09:16:52.059] [INFO] [ScrcpyController] scrcpy arg[4]: "--max-fps"
+[2026-07-06 09:16:52.059] [INFO] [ScrcpyController] scrcpy arg[5]: "60"
+[2026-07-06 09:16:52.059] [INFO] [ScrcpyController] scrcpy arg[6]: "--no-control"
+[2026-07-06 09:16:52.060] [INFO] [ScrcpyController] scrcpy arg[7]: "--window-title"
+[2026-07-06 09:16:52.060] [INFO] [ScrcpyController] scrcpy arg[8]: "AMTS_Scrcpy_459c8df8"
+[2026-07-06 09:16:52.063] [INFO] [ScrcpyController] waitForStarted SUCCESS
+[2026-07-06 09:16:52.063] [INFO] [Device] Current device changed to: 459c8df8
+[2026-07-06 09:16:52.063] [INFO] [MainWindow] Services initialized, device polling started
+[2026-07-06 09:16:52.192] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.192] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.192] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.193] [INFO] [ScrcpyController] scrcpy stdout: scrcpy 4.0 <https://github.com/Genymobile/scrcpy>
+INFO: ADB device found:
+INFO:     -->   (usb)  459c8df8                        device  22081212C
+[2026-07-06 09:16:52.195] [INFO] [ScrcpyController] scrcpy stderr: D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 26.8 MB/s (732226 bytes in 0.026s)
+[2026-07-06 09:16:52.268] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.269] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.270] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.274] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.274] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.274] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.285] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.285] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.285] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.294] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.294] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.294] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.305] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.305] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.306] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.314] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.314] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.314] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.324] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.324] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.326] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.335] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.335] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.335] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.344] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.344] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.344] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.354] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.354] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.354] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.364] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.364] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.365] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.375] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.375] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.375] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.384] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.384] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.384] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.395] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.395] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.397] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.405] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.405] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.405] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.414] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.414] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.414] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.424] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.424] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.424] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.434] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.435] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.436] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.445] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.445] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.446] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.454] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.454] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.455] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.465] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.465] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.465] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.474] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.474] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.474] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.485] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.485] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.485] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.494] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.494] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.496] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.503] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.503] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.505] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.514] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.514] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.516] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.524] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.524] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.524] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.535] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.535] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.536] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.544] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.544] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.546] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.555] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.556] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.556] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.564] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.564] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.564] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.575] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.575] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.576] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.577] [INFO] [ScrcpyController] scrcpy stdout: [server] INFO: Device: [Xiaomi] Redmi 22081212C (Android 15)
+[2026-07-06 09:16:52.583] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.583] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.583] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.594] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.594] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.596] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.604] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.604] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.605] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.615] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.615] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.616] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.624] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.624] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.626] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.634] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.634] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.634] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.644] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.644] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.645] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.655] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.655] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.656] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.664] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.664] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.665] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:16:52.674] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:16:52.674] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:16:52.675] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=1116888
+[2026-07-06 09:16:52.676] [INFO] [ScrcpyController] Found scrcpy window, embedding...
+[2026-07-06 09:16:52.879] [INFO] [ScrcpyController] scrcpy stdout: INFO: Renderer: direct3d11
+[2026-07-06 09:16:52.912] [INFO] [ScrcpyController] scrcpy stdout: INFO: Texture: 484x1080
+[2026-07-06 09:16:54.480] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:54.834] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:54.939] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:16:57.478] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:16:57.825] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:16:57.963] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:17:00.476] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:00.798] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:17:00.946] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:17:03.477] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:03.861] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:17:04.003] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:17:06.466] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:06.775] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:17:06.922] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:17:09.479] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:09.802] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:17:09.931] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:17:12.481] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:12.810] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:17:12.875] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=-1x-1
+[2026-07-06 09:17:12.876] [INFO] [ScrcpyController] scrcpy stderr: WARN: Device disconnected
+[2026-07-06 09:17:14.826] [INFO] [ScrcpyController] scrcpy process exited: code=2 status=normal
+[2026-07-06 09:17:14.827] [ERROR] [ScrcpyController] scrcpy exited with code 2. Full stderr:
+D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 26.8 MB/s (732226 bytes in 0.026s)
+WARN: Device disconnected
+[2026-07-06 09:17:15.469] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:15.498] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:17:15.498] [INFO] [Device] Device disconnected: 459c8df8
+[2026-07-06 09:17:15.499] [INFO] [DevicePanel] setDeviceInfo id= connected=0 running=0
+[2026-07-06 09:17:15.500] [INFO] [Device] Current device changed to: 
+[2026-07-06 09:17:18.470] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:18.501] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:17:21.471] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:21.507] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:17:24.473] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:24.502] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:17:27.475] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:27.505] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:17:30.474] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:30.506] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:17:33.471] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:33.502] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:17:36.480] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:36.511] [INFO] [DeviceService] updateDevices: found 0 device(s)
+[2026-07-06 09:17:39.469] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:39.750] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:17:39.841] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:17:39.842] [INFO] [Device] Device connected: diting (15)
+[2026-07-06 09:17:39.842] [INFO] [DevicePanel] setDeviceInfo id=459c8df8 connected=1 running=0
+[2026-07-06 09:17:39.843] [INFO] [DevicePanel] Device shape applied: type=1 aspect=0.449853
+[2026-07-06 09:17:39.843] [INFO] [DevicePanel] Auto-starting scrcpy for 459c8df8
+[2026-07-06 09:17:39.844] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:17:39.844] [INFO] [ScrcpyController] start() called, running=0
+[2026-07-06 09:17:39.845] [INFO] [ScrcpyController] isAvailable: path=D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe exists=1
+[2026-07-06 09:17:39.846] [INFO] [ScrcpyController] scrcpy binary: D:/myApp_666666666666666/scrcpy-win64-v4.0/scrcpy.exe
+[2026-07-06 09:17:39.846] [INFO] [ScrcpyController] scrcpy arg count: 9
+[2026-07-06 09:17:39.846] [INFO] [ScrcpyController] scrcpy arg[0]: "--serial"
+[2026-07-06 09:17:39.847] [INFO] [ScrcpyController] scrcpy arg[1]: "459c8df8"
+[2026-07-06 09:17:39.847] [INFO] [ScrcpyController] scrcpy arg[2]: "--max-size"
+[2026-07-06 09:17:39.848] [INFO] [ScrcpyController] scrcpy arg[3]: "1080"
+[2026-07-06 09:17:39.848] [INFO] [ScrcpyController] scrcpy arg[4]: "--max-fps"
+[2026-07-06 09:17:39.849] [INFO] [ScrcpyController] scrcpy arg[5]: "60"
+[2026-07-06 09:17:39.849] [INFO] [ScrcpyController] scrcpy arg[6]: "--no-control"
+[2026-07-06 09:17:39.850] [INFO] [ScrcpyController] scrcpy arg[7]: "--window-title"
+[2026-07-06 09:17:39.850] [INFO] [ScrcpyController] scrcpy arg[8]: "AMTS_Scrcpy_459c8df8"
+[2026-07-06 09:17:39.852] [INFO] [ScrcpyController] waitForStarted SUCCESS
+[2026-07-06 09:17:39.853] [INFO] [Device] Current device changed to: 459c8df8
+[2026-07-06 09:17:39.868] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.869] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.870] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.873] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.873] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.874] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.874] [INFO] [ScrcpyController] scrcpy stdout: scrcpy 4.0 <https://github.com/Genymobile/scrcpy>
+[2026-07-06 09:17:39.884] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.885] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.885] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.893] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.894] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.894] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.904] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.905] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.905] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.914] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.914] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.915] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.923] [INFO] [ScrcpyController] scrcpy stdout: INFO: ADB device found:
+INFO:     -->   (usb)  459c8df8                        device  22081212C
+[2026-07-06 09:17:39.925] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.926] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.926] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.934] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.934] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.935] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.945] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.946] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.946] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.954] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.954] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.955] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.965] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.965] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.966] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.968] [INFO] [ScrcpyController] scrcpy stderr: D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 33.9 MB/s (732226 bytes in 0.021s)
+[2026-07-06 09:17:39.974] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.974] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.976] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.985] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.985] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.986] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:39.994] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:39.994] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:39.994] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.005] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.005] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.006] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.014] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.014] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.015] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.025] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.026] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.026] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.034] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.035] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.036] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.045] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.045] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.045] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.054] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.054] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.054] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.064] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.064] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.066] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.075] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.076] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.076] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.084] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.084] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.084] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.095] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.095] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.096] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.104] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.104] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.104] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.114] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.114] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.114] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.125] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.125] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.126] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.134] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.134] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.134] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.145] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.145] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.146] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.154] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.154] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.155] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.163] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.163] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.165] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.174] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.176] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.176] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.184] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.184] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.184] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.190] [INFO] [ScrcpyController] scrcpy stdout: [server] INFO: Device: [Xiaomi] Redmi 22081212C (Android 15)
+[2026-07-06 09:17:40.194] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.194] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.194] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.204] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.204] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.204] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.215] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.216] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.216] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.224] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.224] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.224] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.234] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.234] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.235] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.245] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.245] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.246] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.254] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.254] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.255] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=0
+[2026-07-06 09:17:40.264] [INFO] [ScrcpyController] Looking for window title='AMTS_Scrcpy_459c8df8' hwnd=0
+[2026-07-06 09:17:40.265] [INFO] [ScrcpyController] Fallback title 'scrcpy' hwnd=0
+[2026-07-06 09:17:40.265] [INFO] [ScrcpyController] Fallback class 'SDL_app' hwnd=592088
+[2026-07-06 09:17:40.266] [INFO] [ScrcpyController] Found scrcpy window, embedding...
+[2026-07-06 09:17:40.462] [INFO] [ScrcpyController] scrcpy stdout: INFO: Renderer: direct3d11
+INFO: Texture: 484x1080
+[2026-07-06 09:17:40.513] [INFO] [ScrcpyController] scrcpy stderr: [server] WARN: Could not get initial audio timestamp
+[2026-07-06 09:17:42.476] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:42.805] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:17:42.951] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:17:45.473] [INFO] [DeviceService] refreshDevices: adbAvailable=1
+[2026-07-06 09:17:45.809] [INFO] [DeviceService] updateDevices: found 1 device(s)
+[2026-07-06 09:17:45.950] [INFO] [DeviceService] Device 459c8df8 status=device connected=1 type=1 size=1220x2712
+[2026-07-06 09:17:51.174] [INFO] [ScrcpyController] scrcpy process exited: code=62097 status=crash
+[2026-07-06 09:17:51.174] [ERROR] [ScrcpyController] scrcpy exited with code 62097. Full stderr:
+D:\myApp_666666666666666\scrcpy-win64-v4.0\scrcpy-server: 1 file pushed, 0 skipped. 33.9 MB/s (732226 bytes in 0.021s)
+[server] WARN: Could not get initial audio timestamp

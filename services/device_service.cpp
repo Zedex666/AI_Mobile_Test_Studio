@@ -1,6 +1,7 @@
 #include "device_service.h"
 #include "core/logger/logger.h"
 #include <QDebug>
+#include <QSize>
 
 namespace services {
 
@@ -151,8 +152,35 @@ void DeviceService::updateDevices()
         info.isConnected = (detail.status == "device");
         info.isEmulator = detail.isEmulator;
 
+        // Detect screen size and device type for adaptive frame
+        QSize screen = m_adb->screenSize(info.id);
+        info.screenWidth = screen.width();
+        info.screenHeight = screen.height();
+
+        QString characteristics = m_adb->deviceCharacteristics(info.id).toLower();
+        if (characteristics.contains("watch")) {
+            info.deviceType = DeviceType::Watch;
+        } else if (characteristics.contains("tablet")) {
+            info.deviceType = DeviceType::Tablet;
+        } else if (info.screenWidth > 0 && info.screenHeight > 0) {
+            // Heuristic classification based on screen dimensions
+            double aspectRatio = static_cast<double>(info.screenWidth) / info.screenHeight;
+            if (info.screenWidth <= 500 && info.screenHeight <= 500) {
+                info.deviceType = DeviceType::Watch;
+            } else if (info.screenWidth >= 600 && aspectRatio > 0.6 && aspectRatio < 1.7) {
+                info.deviceType = DeviceType::Tablet;
+            } else {
+                info.deviceType = DeviceType::Phone;
+            }
+        } else {
+            info.deviceType = DeviceType::Phone; // default
+        }
+
         core::logger::Logger::instance()->info("DeviceService",
-            tr("Device %1 status=%2 connected=%3").arg(info.id, detail.status).arg(info.isConnected));
+            tr("Device %1 status=%2 connected=%3 type=%4 size=%5x%6")
+                .arg(info.id, detail.status).arg(info.isConnected)
+                .arg(static_cast<int>(info.deviceType))
+                .arg(info.screenWidth).arg(info.screenHeight));
 
         m_devices[it.key()] = info;
 

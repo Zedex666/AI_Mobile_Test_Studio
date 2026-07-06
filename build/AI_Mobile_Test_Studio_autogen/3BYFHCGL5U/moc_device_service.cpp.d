@@ -2,12 +2,15 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/3BYFHCGL5U/
   E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/moc_predefs.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20functional.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20memory.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20type_traits.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qalgorithms.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qanystringview.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qarraydata.h \
@@ -53,6 +56,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/3BYFHCGL5U/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlogging.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmalloc.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmargins.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmath.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmetacontainer.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmetatype.h \
@@ -71,6 +75,7 @@ E:/Project/AI_Mobile_Test_Studio/build/AI_Mobile_Test_Studio_autogen/3BYFHCGL5U/
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qscopeguard.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h \
+  D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsize.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstring.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringalgorithms.h \
   D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringbuilder.h \

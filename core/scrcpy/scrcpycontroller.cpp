@@ -63,7 +63,7 @@ void ScrcpyController::setDevice(const QString &deviceId)
     m_deviceId = deviceId;
 }
 
-bool ScrcpyController::start(int maxSize, int bitRate, int maxFps)
+bool ScrcpyController::start(int maxSize, int maxFps)
 {
     core::logger::Logger::instance()->info("ScrcpyController",
         tr("start() called, running=%1").arg(isRunning()));
@@ -76,26 +76,38 @@ bool ScrcpyController::start(int maxSize, int bitRate, int maxFps)
         return false;
     }
 
+    // Clear accumulated stderr from any previous run
+    m_stderrBuffer.clear();
+
+    // Build scrcpy command-line arguments with MAXIMUM cross-version compatibility.
+    // Only include options that are universally supported across scrcpy 1.x, 2.x, 3.x,
+    // and any repackaged "v4.0" builds. Non-universal options cause scrcpy to print
+    // "Unknown option" and exit immediately.
+    //
+    // Intentionally OMITTED for cross-version safety:
+    //   --render-expired-frames  → removed in scrcpy 3.0+ (always enabled by default)
+    //   --window-borderless      → removed in scrcpy 3.0+ (we strip borders in embedNativeWindow)
+    //   --bit-rate <N>           → renamed to --video-bit-rate in scrcpy 3.0+
+    //                             (let scrcpy use its default bitrate for max compatibility)
     QStringList args;
     if (!m_deviceId.isEmpty()) {
         args << "--serial" << m_deviceId;
     }
     args << "--max-size" << QString::number(maxSize);
-    args << "--bit-rate" << QString::number(bitRate);
     args << "--max-fps" << QString::number(maxFps);
     args << "--no-control";
-    // NOTE: --render-expired-frames was removed in scrcpy 3.0+ (always enabled by default).
-    // Including it causes scrcpy v3.x/v4.x to exit with "Unknown option" error.
-    // args << "--render-expired-frames";
     args << "--window-title" << "AMTS_Scrcpy_" + m_deviceId;
 
-    if (m_embedContainer) {
-        // Borderless for embedding
-        args << "--window-borderless";
+    // Detailed per-argument logging for diagnostics
+    core::logger::Logger::instance()->info("ScrcpyController",
+        tr("scrcpy binary: %1").arg(m_scrcpyPath));
+    core::logger::Logger::instance()->info("ScrcpyController",
+        tr("scrcpy arg count: %1").arg(args.size()));
+    for (int i = 0; i < args.size(); ++i) {
+        core::logger::Logger::instance()->info("ScrcpyController",
+            tr("scrcpy arg[%1]: \"%2\"").arg(i).arg(args[i]));
     }
 
-    core::logger::Logger::instance()->info("ScrcpyController",
-        tr("Starting scrcpy: %1 %2").arg(m_scrcpyPath).arg(args.join(" ")));
     m_process->start(m_scrcpyPath, args);
 
     if (!m_process->waitForStarted(5000)) {
@@ -164,12 +176,27 @@ void ScrcpyController::onProcessFinished(int exitCode, QProcess::ExitStatus stat
     // Read any remaining stderr output before logging exit
     QString remainingErr = QString::fromUtf8(m_process->readAllStandardError()).trimmed();
     if (!remainingErr.isEmpty()) {
-        core::logger::Logger::instance()->error("ScrcpyController",
-            tr("scrcpy stderr (late): %1").arg(remainingErr));
+        m_stderrBuffer += remainingErr + "\n";
     }
+
     core::logger::Logger::instance()->info("ScrcpyController",
         tr("scrcpy process exited: code=%1 status=%2").arg(exitCode)
             .arg(status == QProcess::NormalExit ? "normal" : "crash"));
+
+    // On non-zero exit, emit the full accumulated stderr so the caller
+    // can diagnose compatibility issues (e.g. "Unknown option" errors)
+    if (exitCode != 0) {
+        QString fullStderr = m_stderrBuffer.trimmed();
+        if (fullStderr.isEmpty()) {
+            fullStderr = tr("(no stderr output captured)");
+        }
+        QString errorMsg = tr("scrcpy exited with code %1. Full stderr:\n%2")
+                               .arg(exitCode)
+                               .arg(fullStderr);
+        core::logger::Logger::instance()->error("ScrcpyController", errorMsg);
+        emit error(errorMsg);
+    }
+
     m_isRunning = false;
     m_embedTimer->stop();
 #ifdef Q_OS_WIN
@@ -198,6 +225,9 @@ void ScrcpyController::onReadyReadStandardError()
 {
     QString text = QString::fromUtf8(m_process->readAllStandardError()).trimmed();
     if (!text.isEmpty()) {
+        // Accumulate all stderr for error reporting on non-zero exit
+        m_stderrBuffer += text + "\n";
+
         // scrcpy writes info to stderr by default — treat as info, not warning,
         // but flag errors explicitly so they stand out in the log
         if (text.contains("ERROR", Qt::CaseInsensitive)

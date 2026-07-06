@@ -20,6 +20,7 @@ public:
 
     void setDeviceInfo(const services::DeviceInfo &info);
     void setAdbAvailable(bool available);
+    void applyDeviceShape(const services::DeviceInfo &info);
 
     bool startScrcpy(const QString &deviceId);
     void stopScrcpy();
@@ -41,6 +42,7 @@ private:
     void setupUI();
     void setupStyle();
     void updateStatusLabel(bool connected);
+    void updateFrameShape();
 
 protected:
     void resizeEvent(QResizeEvent *event) override;
@@ -68,6 +70,10 @@ protected:
     core::scrcpy::ScrcpyController *m_scrcpy = nullptr;
     services::DeviceInfo m_currentInfo;
     bool m_adbAvailable = false;
+
+    // Adaptive frame shape
+    services::DeviceType m_deviceType = services::DeviceType::Unknown;
+    double m_targetAspectRatio = 0.45; // default: phone (width/height ~9:20)
 };
 
 #endif // DEVICEPANEL_H

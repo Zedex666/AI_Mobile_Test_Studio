@@ -366,6 +366,7 @@ E:/Project/AI_Mobile_Test_Studio/app/widgets/devicepanel.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QProcess
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer
@@ -1439,11 +1440,14 @@ E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h
  mmc:Q_OBJECT
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20functional.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20memory.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20type_traits.h
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qalgorithms.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qanystringview.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qarraydata.h
@@ -1488,6 +1492,7 @@ E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlogging.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmalloc.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmargins.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmath.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmetacontainer.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmetatype.h
@@ -1506,6 +1511,7 @@ E:/Project/AI_Mobile_Test_Studio/core/adb/adbcontroller.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qscopeguard.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsize.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstring.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringalgorithms.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringbuilder.h
@@ -2761,6 +2767,7 @@ E:/Project/AI_Mobile_Test_Studio/app/widgets/titlebar.h
  mmc:Q_OBJECT
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer
@@ -4136,12 +4143,15 @@ E:/Project/AI_Mobile_Test_Studio/services/device_service.h
  mmc:Q_OBJECT
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QMap
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QObject
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QSize
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QString
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QStringList
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/QTimer
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20functional.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20memory.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20type_traits.h
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q20utility.h
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/q23utility.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qalgorithms.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qanystringview.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qarraydata.h
@@ -4187,6 +4197,7 @@ E:/Project/AI_Mobile_Test_Studio/services/device_service.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qlogging.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmalloc.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmap.h
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmargins.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmath.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmetacontainer.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qmetatype.h
@@ -4205,6 +4216,7 @@ E:/Project/AI_Mobile_Test_Studio/services/device_service.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qscopeguard.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qshareddata_impl.h
+ mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qsize.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstring.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringalgorithms.h
  mdp:D:/myApp_666666666666666/QT/app/6.8.3/mingw_64/include/QtCore/qstringbuilder.h
